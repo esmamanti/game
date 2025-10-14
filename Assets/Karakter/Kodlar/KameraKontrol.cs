@@ -20,37 +20,38 @@ public class KameraKontrol : MonoBehaviour
     [SerializeField]
     private float maxY = 60f;  // yukarý sýnýr
 
+    KarakterKontrol karakterHp;
+
     void Start()
     {
-        Cursor.lockState = CursorLockMode.Locked;
+
+        karakterHp = GameObject.Find("Bacý").GetComponent<KarakterKontrol>();
     }
 
     void Update() { }
 
     private void LateUpdate() // kamera iþlemleri
     {
-        // Kamera konumunu hedefe yumuþakça takip ettir
-        transform.position = Vector3.Lerp(transform.position, hedef.TransformPoint(hedefMesafe), Time.deltaTime * 10);
 
-        // Fare giriþleri
-        fareX += Input.GetAxis("Mouse X") * fareHassasiyet;
-        fareY -= Input.GetAxis("Mouse Y") * fareHassasiyet; // Y eksenini ters çevirdik
+        if (karakterHp.yasiyorMu() == true)
+        {
+            // Kamera konumunu hedefe yumuþakça takip ettir
+            transform.position = Vector3.Lerp(transform.position, hedef.TransformPoint(hedefMesafe), Time.deltaTime * 10);
 
-        // Y eksenini sýnýrla
-        fareY = Mathf.Clamp(fareY, minY, maxY);
+            // Fare giriþleri
+            fareX += Input.GetAxis("Mouse X") * fareHassasiyet;
+            fareY -= Input.GetAxis("Mouse Y") * fareHassasiyet; // Y eksenini ters çevirdik
 
-        // Kamerayý döndür
-        transform.rotation = Quaternion.Euler(fareY, fareX, 0);
+            // Y eksenini sýnýrla
+            fareY = Mathf.Clamp(fareY, minY, maxY);
 
-        // Hedefin sadece yatay eksende dönmesini saðla
-        hedef.rotation = Quaternion.Euler(0, fareX, 0);
+            // Kamerayý döndür
+            transform.rotation = Quaternion.Euler(fareY, fareX, 0);
 
-        Vector3 gecici = this.transform.localEulerAngles;
-        gecici.z = 0;
-        gecici.y = this.transform.localEulerAngles.y;
-        gecici.x=this.transform.localEulerAngles.x+10;
-        objRot=gecici;
-        karakterVucut.transform.eulerAngles = objRot;
+            // Hedefin sadece yatay eksende dönmesini saðla
+            hedef.rotation = Quaternion.Euler(0, fareX, 0);
+        }
+
 
     }
 }
