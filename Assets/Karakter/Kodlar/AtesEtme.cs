@@ -7,11 +7,13 @@ public class AtesEtme : MonoBehaviour
     Camera kamera;
     public LayerMask enemyKatman;
     KarakterKontrol hpKontrol;
+    Animator anim;
 
     void Start()
     {
         kamera = Camera.main;
         hpKontrol = this.gameObject.GetComponent<KarakterKontrol>();
+        anim=this.gameObject.GetComponent<Animator>();
 
     }
 
@@ -22,15 +24,20 @@ public class AtesEtme : MonoBehaviour
         {
             if (Input.GetMouseButton(0))
             {
-                AtesEt();
+                anim.SetBool("atesEt", true);
+            }
+            else if (Input.GetMouseButtonUp(0))
+            {
+                anim.SetBool("atesEt", false);
             }
         }
 
         
 
     }
-    void AtesEt()
+    public void AtesEt()
     {
+        Debug.Log("Ateþ Ettim");
         Ray ray = kamera.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0));
         RaycastHit hit;
         if (Physics.Raycast(ray, out hit, Mathf.Infinity, enemyKatman))

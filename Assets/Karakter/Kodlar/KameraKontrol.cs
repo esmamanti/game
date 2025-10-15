@@ -26,6 +26,7 @@ public class KameraKontrol : MonoBehaviour
     {
 
         karakterHp = GameObject.Find("Bacý").GetComponent<KarakterKontrol>();
+        Cursor.lockState = CursorLockMode.Locked; // Fare imlecini kilitle
     }
 
     void Update() { }

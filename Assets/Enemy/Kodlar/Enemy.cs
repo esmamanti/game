@@ -5,6 +5,7 @@ using UnityEngine.AI;
 
 public class Enemy : MonoBehaviour
 {
+    [SerializeField]
     public float enemyHP = 100;
     Animator enemyAnim;
     bool enemyOlu;
@@ -78,6 +79,6 @@ public class Enemy : MonoBehaviour
     }
     public void HasarAl()
     {
-        enemyHP -= Random.Range(15, 25);
+        enemyHP -= Random.Range(7, 8);
     }
 }
