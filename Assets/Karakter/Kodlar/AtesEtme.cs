@@ -7,7 +7,13 @@ public class AtesEtme : MonoBehaviour
     Camera kamera;
     public LayerMask enemyKatman;
     KarakterKontrol hpKontrol;
+    public ParticleSystem muzzleFlash;
     Animator anim;
+
+    private float sarjor=10;
+    private float cephane = 180;
+    private float sarjorKapasite = 18;
+
 
     void Start()
     {
@@ -24,7 +30,22 @@ public class AtesEtme : MonoBehaviour
         {
             if (Input.GetMouseButton(0))
             {
-                anim.SetBool("atesEt", true);
+                if(sarjor>0)
+                {
+
+                    anim.SetBool("atesEt", true);
+                }
+                if(sarjor<=0)
+                {
+                    anim.SetBool("atesEt", false);
+
+                }
+                if(sarjor <=0 && cephane >0)
+                {
+                    anim.SetBool("sarjorDegistirme", true);
+                    
+                }
+
             }
             else if (Input.GetMouseButtonUp(0))
             {
@@ -35,17 +56,33 @@ public class AtesEtme : MonoBehaviour
         
 
     }
+    public void SarjorDegistirme()
+    {
+        cephane -= sarjorKapasite - sarjor;
+        sarjor = sarjorKapasite;
+        anim.SetBool("sarjorDegistirme", false);
+
+    }
     public void AtesEt()
     {
-        Debug.Log("Ateþ Ettim");
-        Ray ray = kamera.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0));
-        RaycastHit hit;
-        if (Physics.Raycast(ray, out hit, Mathf.Infinity, enemyKatman))
+        
+        if(sarjor>0)
         {
-            var enemy = hit.collider.GetComponentInParent<Enemy>();
-            if (enemy != null) enemy.HasarAl();
+            Debug.Log("Ateþ Ettim");
+            //MuzzleFlash();
+            Ray ray = kamera.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0));
+            RaycastHit hit;
+            if (Physics.Raycast(ray, out hit, Mathf.Infinity, enemyKatman))
+            {
+                var enemy = hit.collider.GetComponentInParent<Enemy>();
+                if (enemy != null) enemy.HasarAl();
+            }
+            sarjor--;
+
         }
 
     }
+    public void MuzzleFlash()
+    { muzzleFlash.Play(); }
 }
 

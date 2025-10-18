@@ -1,22 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Esma Nur Mant\u0131\\Unity Hub Projects\\game\\",
+  "WorkspaceRootPath": "C:\\Users\\nalan\\OneDrive\\Desktop\\game\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1AF7E356-2D58-7119-FE6C-C1ED31A62E64}|Assembly-CSharp.csproj|C:\\Users\\Esma Nur Mant\u0131\\Unity Hub Projects\\game\\assets\\karakter\\kodlar\\kamerakontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1AF7E356-2D58-7119-FE6C-C1ED31A62E64}|Assembly-CSharp.csproj|c:\\users\\nalan\\onedrive\\desktop\\game\\assets\\karakter\\kodlar\\atesetme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AF7E356-2D58-7119-FE6C-C1ED31A62E64}|Assembly-CSharp.csproj|solutionrelative:assets\\karakter\\kodlar\\atesetme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AF7E356-2D58-7119-FE6C-C1ED31A62E64}|Assembly-CSharp.csproj|C:\\Users\\nalan\\OneDrive\\Desktop\\game\\assets\\karakter\\kodlar\\kamerakontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1AF7E356-2D58-7119-FE6C-C1ED31A62E64}|Assembly-CSharp.csproj|solutionrelative:assets\\karakter\\kodlar\\kamerakontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1AF7E356-2D58-7119-FE6C-C1ED31A62E64}|Assembly-CSharp.csproj|C:\\Users\\Esma Nur Mant\u0131\\Unity Hub Projects\\game\\assets\\karakter\\kodlar\\karakterkontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1AF7E356-2D58-7119-FE6C-C1ED31A62E64}|Assembly-CSharp.csproj|C:\\Users\\nalan\\OneDrive\\Desktop\\game\\assets\\karakter\\kodlar\\karakterkontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1AF7E356-2D58-7119-FE6C-C1ED31A62E64}|Assembly-CSharp.csproj|solutionrelative:assets\\karakter\\kodlar\\karakterkontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1AF7E356-2D58-7119-FE6C-C1ED31A62E64}|Assembly-CSharp.csproj|c:\\users\\esma nur mant\u0131\\unity hub projects\\game\\assets\\enemy\\kodlar\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1AF7E356-2D58-7119-FE6C-C1ED31A62E64}|Assembly-CSharp.csproj|C:\\Users\\nalan\\OneDrive\\Desktop\\game\\assets\\enemy\\kodlar\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1AF7E356-2D58-7119-FE6C-C1ED31A62E64}|Assembly-CSharp.csproj|solutionrelative:assets\\enemy\\kodlar\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1AF7E356-2D58-7119-FE6C-C1ED31A62E64}|Assembly-CSharp.csproj|C:\\Users\\Esma Nur Mant\u0131\\Unity Hub Projects\\game\\assets\\karakter\\kodlar\\atesetme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1AF7E356-2D58-7119-FE6C-C1ED31A62E64}|Assembly-CSharp.csproj|solutionrelative:assets\\karakter\\kodlar\\atesetme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,63 +26,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Enemy.cs",
-              "DocumentMoniker": "C:\\Users\\Esma Nur Mant\u0131\\Unity Hub Projects\\game\\Assets\\Enemy\\Kodlar\\Enemy.cs",
-              "RelativeDocumentMoniker": "Assets\\Enemy\\Kodlar\\Enemy.cs",
-              "ToolTip": "C:\\Users\\Esma Nur Mant\u0131\\Unity Hub Projects\\game\\Assets\\Enemy\\Kodlar\\Enemy.cs",
-              "RelativeToolTip": "Assets\\Enemy\\Kodlar\\Enemy.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwD4AAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T16:58:27.854Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "AtesEtme.cs",
-              "DocumentMoniker": "C:\\Users\\Esma Nur Mant\u0131\\Unity Hub Projects\\game\\Assets\\Karakter\\Kodlar\\AtesEtme.cs",
+              "DocumentMoniker": "C:\\Users\\nalan\\OneDrive\\Desktop\\game\\Assets\\Karakter\\Kodlar\\AtesEtme.cs",
               "RelativeDocumentMoniker": "Assets\\Karakter\\Kodlar\\AtesEtme.cs",
-              "ToolTip": "C:\\Users\\Esma Nur Mant\u0131\\Unity Hub Projects\\game\\Assets\\Karakter\\Kodlar\\AtesEtme.cs",
+              "ToolTip": "C:\\Users\\nalan\\OneDrive\\Desktop\\game\\Assets\\Karakter\\Kodlar\\AtesEtme.cs",
               "RelativeToolTip": "Assets\\Karakter\\Kodlar\\AtesEtme.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAwA4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowC8AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-12T15:59:26.976Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "KameraKontrol.cs",
-              "DocumentMoniker": "C:\\Users\\Esma Nur Mant\u0131\\Unity Hub Projects\\game\\Assets\\Karakter\\Kodlar\\KameraKontrol.cs",
-              "RelativeDocumentMoniker": "Assets\\Karakter\\Kodlar\\KameraKontrol.cs",
-              "ToolTip": "C:\\Users\\Esma Nur Mant\u0131\\Unity Hub Projects\\game\\Assets\\Karakter\\Kodlar\\KameraKontrol.cs",
-              "RelativeToolTip": "Assets\\Karakter\\Kodlar\\KameraKontrol.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBEAAAAUAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Enemy.cs",
+              "DocumentMoniker": "C:\\Users\\nalan\\OneDrive\\Desktop\\game\\Assets\\Enemy\\Kodlar\\Enemy.cs",
+              "RelativeDocumentMoniker": "Assets\\Enemy\\Kodlar\\Enemy.cs",
+              "ToolTip": "C:\\Users\\nalan\\OneDrive\\Desktop\\game\\Assets\\Enemy\\Kodlar\\Enemy.cs",
+              "RelativeToolTip": "Assets\\Enemy\\Kodlar\\Enemy.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwD4AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-11T18:07:34.315Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-13T16:58:27.854Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "KameraKontrol.cs",
+              "DocumentMoniker": "C:\\Users\\nalan\\OneDrive\\Desktop\\game\\Assets\\Karakter\\Kodlar\\KameraKontrol.cs",
+              "RelativeDocumentMoniker": "Assets\\Karakter\\Kodlar\\KameraKontrol.cs",
+              "ToolTip": "C:\\Users\\nalan\\OneDrive\\Desktop\\game\\Assets\\Karakter\\Kodlar\\KameraKontrol.cs",
+              "RelativeToolTip": "Assets\\Karakter\\Kodlar\\KameraKontrol.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBEAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-11T18:07:34.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "KarakterKontrol.cs",
-              "DocumentMoniker": "C:\\Users\\Esma Nur Mant\u0131\\Unity Hub Projects\\game\\Assets\\Karakter\\Kodlar\\KarakterKontrol.cs",
+              "DocumentMoniker": "C:\\Users\\nalan\\OneDrive\\Desktop\\game\\Assets\\Karakter\\Kodlar\\KarakterKontrol.cs",
               "RelativeDocumentMoniker": "Assets\\Karakter\\Kodlar\\KarakterKontrol.cs",
-              "ToolTip": "C:\\Users\\Esma Nur Mant\u0131\\Unity Hub Projects\\game\\Assets\\Karakter\\Kodlar\\KarakterKontrol.cs",
+              "ToolTip": "C:\\Users\\nalan\\OneDrive\\Desktop\\game\\Assets\\Karakter\\Kodlar\\KarakterKontrol.cs",
               "RelativeToolTip": "Assets\\Karakter\\Kodlar\\KarakterKontrol.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-11T18:00:18.303Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-11T18:00:18.303Z"
             }
           ]
         }
