@@ -5,6 +5,11 @@ using UnityEngine.AI;
 
 public class Enemy : MonoBehaviour
 {
+    // Hýz ayarý için yeni bir deðiþken ekledik. 
+    // Unity Inspector'dan kolayca deðiþtirebilirsin.
+    [SerializeField]
+    public float dusmanHiz = 2f; // <--- HIZI BURADAN AYARLA (1.5f yavaþ bir hýzdýr)
+
     [SerializeField]
     public float enemyHP = 100;
     Animator enemyAnim;
@@ -19,15 +24,18 @@ public class Enemy : MonoBehaviour
     void Start()
     {
         enemyAnim = this.GetComponent<Animator>();
-        hedefOyuncu=GameObject.Find("Bacý");
+        hedefOyuncu = GameObject.Find("Bacý");
         enemyNavMesh = this.GetComponent<NavMeshAgent>();
+
+        // NAVMESHAGENT HIZINI AYARLAYAN TEK SATIR (dusmanHiz deðiþkenini kullanýr)
+        enemyNavMesh.speed = dusmanHiz; // <<< EKLEDÝÐÝMÝZ SATIR >>>
 
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
         if (enemyHP <= 0)
         {
             enemyOlu = true;
@@ -57,7 +65,7 @@ public class Enemy : MonoBehaviour
                 enemyAnim.SetBool("saldiriyor", false);
                 //durma animasyonu
             }
-            if (mesafe<saldýrmaMesafesi)
+            if (mesafe < saldýrmaMesafesi)
             {
                 this.transform.LookAt(hedefOyuncu.transform.position);
                 enemyNavMesh.isStopped = true;
@@ -70,7 +78,7 @@ public class Enemy : MonoBehaviour
     }
     public void HasarVer()
     {
-      hedefOyuncu.GetComponent<KarakterKontrol>().HasarAl();
+        hedefOyuncu.GetComponent<KarakterKontrol>().HasarAl();
     }
     IEnumerator YokOl()
     {
