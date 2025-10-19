@@ -387,6 +387,7 @@
 "Assets/SciFi Warehouse Kit/Demo/Scripts/PlayerMovement.cs"
 "Assets/SciFi Warehouse Kit/Demo/Scripts/PlayRandomSound.cs"
 "Assets/SciFi Warehouse Kit/Demo/Scripts/PushPhysics.cs"
+"Assets/UI/Script/ArayuzKontrol.cs"
 -langversion:9.0
 /deterministic
 /optimize+
