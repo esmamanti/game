@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using JetBrains.Annotations;
 using UnityEngine;
 
 public class KarakterKontrol : MonoBehaviour
@@ -37,6 +38,11 @@ public class KarakterKontrol : MonoBehaviour
             Zıplama();
         }    
        
+    }
+    public float GetSaglik()
+       
+    { 
+        return saglik; 
     }
 
     public bool yasiyorMu()

@@ -10,9 +10,9 @@ public class AtesEtme : MonoBehaviour
     public ParticleSystem muzzleFlash;
     Animator anim;
 
-    private float sarjor=10;
-    private float cephane = 180;
-    private float sarjorKapasite = 18;
+    private float sarjor=30;
+    private float cephane = 240;
+    private float sarjorKapasite = 30;
 
 
     void Start()
@@ -84,5 +84,11 @@ public class AtesEtme : MonoBehaviour
     }
     public void MuzzleFlash()
     { muzzleFlash.Play(); }
+
+    public float GetSarjor()
+    { return sarjor; }
+
+    public float GetCephane()
+    { return cephane; }
 }
 

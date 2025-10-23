@@ -87,6 +87,6 @@ public class Enemy : MonoBehaviour
     }
     public void HasarAl()
     {
-        enemyHP -= Random.Range(7, 8);
+        enemyHP -= Random.Range(7, 10);
     }
 }
