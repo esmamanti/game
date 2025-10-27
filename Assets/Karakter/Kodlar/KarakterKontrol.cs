@@ -1,48 +1,80 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using JetBrains.Annotations;
 using UnityEngine;
 
 public class KarakterKontrol : MonoBehaviour
 {
     Animator anim;
+    private CharacterController controller; // CharacterController bileşeni
+
+    // Hız Ayarları
+    [Header("Hız Ayarları")]
     [SerializeField]
-    private float karakterHiz;
+    private float normalHiz = 2f;
+    [SerializeField]
+    private float kosmaHiz = 3f;
+
+    private float gecerliHiz;
+
+    // Fizik ve Zıplama Ayarları
+    [Header("Fizik Ayarları")]
+    [SerializeField]
+    private float yercekimi = -20f; // Yerçekimi değerini -9.81'den -20f'ye yükselttim (daha hızlı düşmesi için)
+    [SerializeField]
+    private float ziplamaGucu = 5f;
+
+    private Vector3 velocity; // Karakterin anlık hızı (yerçekimi için)
+    private bool yerdeMi = true; // Eski yerdeMi değişkenini geri getiriyoruz
 
     private float saglik = 100;
     bool hayattaMi;
 
-    [SerializeField]
-    private float ziplamaGucu = 5f; // Zıplama gücü değişkeni
-
-    private bool yerdeMi = true; // Karakterin yerde olup olmadığını tutan değişken
-
     void Start()
     {
         anim = this.GetComponent<Animator>();
+        // Controller'ı bul
+        controller = GetComponent<CharacterController>();
         hayattaMi = true;
+        gecerliHiz = normalHiz;
     }
 
 
     void Update()
     {
+        // YerdeMi kontrolünü controller.isGrounded'dan al
+        yerdeMi = controller.isGrounded;
+
         if (saglik <= 0)
         {
             hayattaMi = false;
             anim.SetBool("yasiyorMu", hayattaMi);
         }
 
-        if(hayattaMi == true)
+        if (hayattaMi == true)
         {
+            HizKontrolu();
             Hareket();
-            Zıplama();
-        }    
-       
+            ZıplamaVeYercekimi();
+        }
     }
+
+    // Shift ile hız kontrolü
+    void HizKontrolu()
+    {
+        if (Input.GetKey(KeyCode.LeftShift))
+        {
+            gecerliHiz = kosmaHiz;
+        }
+        else
+        {
+            gecerliHiz = normalHiz;
+        }
+    }
+
+    // UI için gerekli fonksiyonlar
     public float GetSaglik()
-       
-    { 
-        return saglik; 
+    {
+        return saglik;
     }
 
     public bool yasiyorMu()
@@ -54,31 +86,49 @@ public class KarakterKontrol : MonoBehaviour
     {
         saglik -= Random.Range(5, 10);
     }
+
     void Hareket()
     {
         float yatay = Input.GetAxis("Horizontal");
         float dikey = Input.GetAxis("Vertical");
+
         anim.SetFloat("Horizontal", yatay);
         anim.SetFloat("Vertical", dikey);
-        this.gameObject.transform.Translate(yatay * karakterHiz * Time.deltaTime, 0, dikey * karakterHiz * Time.deltaTime);
 
+        // Karakterin baktığı yöne göre hareket vektörünü hesapla
+        Vector3 hareketYonu = transform.right * yatay + transform.forward * dikey;
 
+        // CharacterController ile hareket et
+        controller.Move(hareketYonu * gecerliHiz * Time.deltaTime);
     }
-    void Zıplama()
+
+    void ZıplamaVeYercekimi()
     {
-        // Yerde Kontrolü Eklendi: SADECE Space'e basıldığında VE yerdeMi == true ise zıpla
-        if (Input.GetKeyDown(KeyCode.Space) && yerdeMi)
+        // Eğer yerdeysek
+        if (yerdeMi)
         {
-            yerdeMi = false; // Zıplama emri verildi, hemen havada olarak işaretle
-            GetComponent<Rigidbody>().AddForce(Vector3.up * ziplamaGucu, ForceMode.Impulse);
+            // Yerdeyken Y hızı negatifse, -2f'e sabitle (yere yapıştırmak için)
+            if (velocity.y < 0)
+            {
+                velocity.y = -2f;
+            }
+
+            // Zıplama Kontrolü
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                // Zıplama Hızı: Formül: h = sqrt(-2 * g * jumpHeight)
+                // Burada ziplamaGucu, zıplama yüksekliği gibi davranır.
+                velocity.y = Mathf.Sqrt(ziplamaGucu * 2f * -yercekimi); // yercekimi negatif olduğu için -yercekimi kullanıldı
+            }
         }
+
+        // Yerçekimi Uygula (Her zaman)
+        // Yere düşmesini sağlamak için Yerçekimi hızını her karede ekle
+        velocity.y += yercekimi * Time.deltaTime;
+
+        // CharacterController ile dikey (yerçekimi) hareketi uygula
+        controller.Move(velocity * Time.deltaTime);
     }
 
-    // YENİ UNITY FİZİK FONKSİYONU: Yere değdiğinde çalışır
-    private void OnCollisionEnter(Collision collision)
-    {
-        // Karakterimiz başka bir Collider'a çarptığında (yani yere indiğinde)
-        // yerdeMi değişkenini tekrar true yapıyoruz.
-        yerdeMi = true;
-    }
+    // Artık OnCollisionEnter gerekli değil.
 }
