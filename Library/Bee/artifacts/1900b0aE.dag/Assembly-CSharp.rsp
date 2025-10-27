@@ -386,6 +386,8 @@
 "Assets/SciFi Warehouse Kit/Demo/Scripts/PlayerMovement.cs"
 "Assets/SciFi Warehouse Kit/Demo/Scripts/PlayRandomSound.cs"
 "Assets/SciFi Warehouse Kit/Demo/Scripts/PushPhysics.cs"
+"Assets/Scripts/MainMenu.cs"
+"Assets/Scripts/VideoSceneLoader.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs"

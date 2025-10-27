@@ -3,28 +3,32 @@
   "WorkspaceRootPath": "C:\\Kerem\\Game\\game\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F1BFFDC9-F466-FF2A-C02C-F135EE387CAA}|Assembly-CSharp.Player.csproj|C:\\Kerem\\Game\\game\\Assets\\Karakter\\Kodlar\\AtesEtme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1BFFDC9-F466-FF2A-C02C-F135EE387CAA}|Assembly-CSharp.Player.csproj|solutionrelative:Assets\\Karakter\\Kodlar\\AtesEtme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F1BFFDC9-F466-FF2A-C02C-F135EE387CAA}|Assembly-CSharp.Player.csproj|c:\\kerem\\game\\game\\assets\\scripts\\videosceneloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1BFFDC9-F466-FF2A-C02C-F135EE387CAA}|Assembly-CSharp.Player.csproj|solutionrelative:assets\\scripts\\videosceneloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1BFFDC9-F466-FF2A-C02C-F135EE387CAA}|Assembly-CSharp.Player.csproj|C:\\Kerem\\Game\\game\\assets\\ui\\script\\pausemenukontrolcusu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1BFFDC9-F466-FF2A-C02C-F135EE387CAA}|Assembly-CSharp.Player.csproj|solutionrelative:assets\\ui\\script\\pausemenukontrolcusu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F1BFFDC9-F466-FF2A-C02C-F135EE387CAA}|Assembly-CSharp.Player.csproj|C:\\Kerem\\Game\\game\\assets\\ui\\script\\arayuzkontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F1BFFDC9-F466-FF2A-C02C-F135EE387CAA}|Assembly-CSharp.Player.csproj|solutionrelative:assets\\ui\\script\\arayuzkontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{F1BFFDC9-F466-FF2A-C02C-F135EE387CAA}|Assembly-CSharp.Player.csproj|C:\\Kerem\\Game\\game\\assets\\karakter\\kodlar\\atesetme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1BFFDC9-F466-FF2A-C02C-F135EE387CAA}|Assembly-CSharp.Player.csproj|solutionrelative:assets\\karakter\\kodlar\\atesetme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F1BFFDC9-F466-FF2A-C02C-F135EE387CAA}|Assembly-CSharp.Player.csproj|C:\\Kerem\\Game\\game\\Assets\\Karakter\\Kodlar\\KameraKontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F1BFFDC9-F466-FF2A-C02C-F135EE387CAA}|Assembly-CSharp.Player.csproj|solutionrelative:Assets\\Karakter\\Kodlar\\KameraKontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F1BFFDC9-F466-FF2A-C02C-F135EE387CAA}|Assembly-CSharp.Player.csproj|c:\\kerem\\game\\game\\assets\\karakter\\kodlar\\karakterkontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F1BFFDC9-F466-FF2A-C02C-F135EE387CAA}|Assembly-CSharp.Player.csproj|C:\\Kerem\\Game\\game\\assets\\karakter\\kodlar\\karakterkontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F1BFFDC9-F466-FF2A-C02C-F135EE387CAA}|Assembly-CSharp.Player.csproj|solutionrelative:assets\\karakter\\kodlar\\karakterkontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F1BFFDC9-F466-FF2A-C02C-F135EE387CAA}|Assembly-CSharp.Player.csproj|C:\\Kerem\\Game\\game\\Assets\\Enemy\\Kodlar\\Enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F1BFFDC9-F466-FF2A-C02C-F135EE387CAA}|Assembly-CSharp.Player.csproj|solutionrelative:Assets\\Enemy\\Kodlar\\Enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1BFFDC9-F466-FF2A-C02C-F135EE387CAA}|Assembly-CSharp.Player.csproj|c:\\kerem\\game\\game\\assets\\ui\\script\\pausemenukontrolcusu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1BFFDC9-F466-FF2A-C02C-F135EE387CAA}|Assembly-CSharp.Player.csproj|solutionrelative:assets\\ui\\script\\pausemenukontrolcusu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,11 +38,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "VideoSceneLoader.cs",
+              "DocumentMoniker": "C:\\Kerem\\Game\\game\\Assets\\Scripts\\VideoSceneLoader.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\VideoSceneLoader.cs",
+              "ToolTip": "C:\\Kerem\\Game\\game\\Assets\\Scripts\\VideoSceneLoader.cs",
+              "RelativeToolTip": "Assets\\Scripts\\VideoSceneLoader.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAE8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T15:14:59.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "KarakterKontrol.cs",
               "DocumentMoniker": "C:\\Kerem\\Game\\game\\Assets\\Karakter\\Kodlar\\KarakterKontrol.cs",
               "RelativeDocumentMoniker": "Assets\\Karakter\\Kodlar\\KarakterKontrol.cs",
@@ -46,12 +63,11 @@
               "RelativeToolTip": "Assets\\Karakter\\Kodlar\\KarakterKontrol.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-11T18:00:18.303Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-11T18:00:18.303Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "KameraKontrol.cs",
               "DocumentMoniker": "C:\\Kerem\\Game\\game\\Assets\\Karakter\\Kodlar\\KameraKontrol.cs",
               "RelativeDocumentMoniker": "Assets\\Karakter\\Kodlar\\KameraKontrol.cs",
@@ -59,25 +75,23 @@
               "RelativeToolTip": "Assets\\Karakter\\Kodlar\\KameraKontrol.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-11T18:07:34.315Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-11T18:07:34.315Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "PauseMenuKontrolcusu.cs",
               "DocumentMoniker": "C:\\Kerem\\Game\\game\\Assets\\UI\\Script\\PauseMenuKontrolcusu.cs",
               "RelativeDocumentMoniker": "Assets\\UI\\Script\\PauseMenuKontrolcusu.cs",
               "ToolTip": "C:\\Kerem\\Game\\game\\Assets\\UI\\Script\\PauseMenuKontrolcusu.cs",
               "RelativeToolTip": "Assets\\UI\\Script\\PauseMenuKontrolcusu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAADQAAAAAAAAAAIBJwE0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-23T17:42:45.742Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-23T17:42:45.742Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ArayuzKontrol.cs",
               "DocumentMoniker": "C:\\Kerem\\Game\\game\\Assets\\UI\\Script\\ArayuzKontrol.cs",
               "RelativeDocumentMoniker": "Assets\\UI\\Script\\ArayuzKontrol.cs",
@@ -85,25 +99,23 @@
               "RelativeToolTip": "Assets\\UI\\Script\\ArayuzKontrol.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-23T16:11:26.415Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-23T16:11:26.415Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "AtesEtme.cs",
               "DocumentMoniker": "C:\\Kerem\\Game\\game\\Assets\\Karakter\\Kodlar\\AtesEtme.cs",
               "RelativeDocumentMoniker": "Assets\\Karakter\\Kodlar\\AtesEtme.cs",
               "ToolTip": "C:\\Kerem\\Game\\game\\Assets\\Karakter\\Kodlar\\AtesEtme.cs",
               "RelativeToolTip": "Assets\\Karakter\\Kodlar\\AtesEtme.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAkwA0AAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAIBZwA0AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-12T15:59:26.976Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-12T15:59:26.976Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Enemy.cs",
               "DocumentMoniker": "C:\\Kerem\\Game\\game\\Assets\\Enemy\\Kodlar\\Enemy.cs",
               "RelativeDocumentMoniker": "Assets\\Enemy\\Kodlar\\Enemy.cs",
@@ -111,8 +123,7 @@
               "RelativeToolTip": "Assets\\Enemy\\Kodlar\\Enemy.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAFkAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T16:58:27.854Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-13T16:58:27.854Z"
             }
           ]
         }
