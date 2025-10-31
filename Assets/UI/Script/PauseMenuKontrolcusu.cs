@@ -67,12 +67,22 @@ public class PauseMenuManager : MonoBehaviour
         SceneManager.LoadScene("MainMenuSceneName");
     }
 
-    public void QuitGame()
+    public void RestartGame()
     {
-        Debug.Log("OYUNDAN ÇIKILIYOR...");
-        Application.Quit();
-#if UNITY_EDITOR
-        UnityEditor.EditorApplication.isPlaying = false;
-#endif
-    }
+        // 1. Zamaný normale döndür (eðer hala 0 ise)
+        Time.timeScale = 1f;
+        Time.fixedDeltaTime = _defaultFixedDelta;
+        AudioListener.pause = false; // Müzik/sesleri aç
+
+        // 2. Mevcut sahnenin adýný al
+        string currentSceneName = SceneManager.GetActiveScene().name;
+
+        // 3. Sahneyi yeniden yükle
+        SceneManager.LoadScene(currentSceneName);
+
+        // 4. Pause durumunu sýfýrla (yeniden yükleme sonrasý Start() çaðrýlacak ama emin olmak için)
+        GameIsPaused = false;
+
+        Debug.Log($"[PauseMenu] Oyun yeniden baþlatýlýyor. Yüklenen Sahne: {currentSceneName}");
+    }
 }
