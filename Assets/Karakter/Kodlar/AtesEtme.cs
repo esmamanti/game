@@ -14,12 +14,21 @@ public class AtesEtme : MonoBehaviour
     private float cephane = 240;
     private float sarjorKapasite = 30;
 
+    AudioSource sesKaynagi;
+    AudioSource reload;
+
+    public AudioClip atesSes;
+    public AudioClip reloadSes;
+
 
     void Start()
     {
         kamera = Camera.main;
         hpKontrol = this.gameObject.GetComponent<KarakterKontrol>();
         anim=this.gameObject.GetComponent<Animator>();
+        sesKaynagi = this.gameObject.GetComponent<AudioSource>();
+        reload = this.gameObject.GetComponent<AudioSource>();
+
 
     }
 
@@ -58,6 +67,7 @@ public class AtesEtme : MonoBehaviour
     }
     public void SarjorDegistirme()
     {
+        reload.PlayOneShot(reloadSes);
         cephane -= sarjorKapasite - sarjor;
         sarjor = sarjorKapasite;
         anim.SetBool("sarjorDegistirme", false);
@@ -70,6 +80,8 @@ public class AtesEtme : MonoBehaviour
         {
             Debug.Log("Ateþ Ettim");
             //MuzzleFlash();
+
+            sesKaynagi.PlayOneShot(atesSes);
             Ray ray = kamera.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0));
             RaycastHit hit;
             if (Physics.Raycast(ray, out hit, Mathf.Infinity, enemyKatman))
