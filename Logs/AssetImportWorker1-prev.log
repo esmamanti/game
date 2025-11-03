@@ -15,7 +15,7 @@ C:/Users/nalan/OneDrive/Desktop/game
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-55847
+49944
 Successfully changed project path to: C:/Users/nalan/OneDrive/Desktop/game
 C:/Users/nalan/OneDrive/Desktop/game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,15 +49,15 @@ C:/Users/nalan/OneDrive/Desktop/game
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [20848]  Target information:
+Player connection [31024]  Target information:
 
-Player connection [20848]  * "[IP] 192.168.1.138 [Port] 0 [Flags] 2 [Guid] 3382838695 [EditorId] 3382838695 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-35D00DF0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [31024]  * "[IP] 192.168.1.138 [Port] 0 [Flags] 2 [Guid] 195752757 [EditorId] 195752757 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-35D00DF0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [20848] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [20848] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [31024] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [31024] Host joined alternative multi-casting on [225.0.0.222:34997]...
 Input System module state changed to: Initialized.
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-Refreshing native plugins compatible for Editor in 5501.23 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 452.14 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.62f2 (7670c08855a9)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.62f2/Editor/Data/Resources/UnitySubsystems
@@ -75,98 +75,98 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f2/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f2/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56020
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56692
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.62f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.358750 seconds.
-- Loaded All Assemblies, in 20.077 seconds
+Registered in 0.013512 seconds.
+- Loaded All Assemblies, in  2.965 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.298 seconds
-Domain Reload Profiling: 20373ms
-	BeginReloadAssembly (15044ms)
-		ExecutionOrderSort (1ms)
+- Finished resetting the current domain, in  0.491 seconds
+Domain Reload Profiling: 3454ms
+	BeginReloadAssembly (260ms)
+		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (6ms)
-	RebuildCommonClasses (1333ms)
-	RebuildNativeTypeToScriptingClass (19ms)
-	initialDomainReloadingComplete (462ms)
-	LoadAllAssembliesAndSetupDomain (3215ms)
-		LoadAssemblies (15047ms)
+		CreateAndSetChildDomain (5ms)
+	RebuildCommonClasses (443ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (119ms)
+	LoadAllAssembliesAndSetupDomain (2124ms)
+		LoadAssemblies (250ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (3190ms)
-			TypeCache.Refresh (3186ms)
-				TypeCache.ScanAssembly (2232ms)
+		AnalyzeDomain (2118ms)
+			TypeCache.Refresh (2115ms)
+				TypeCache.ScanAssembly (1475ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (299ms)
+	FinalizeReload (492ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (257ms)
+		SetupLoadedEditorAssemblies (413ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
-			SetLoadedEditorAssemblies (11ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (14ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (170ms)
-			ProcessInitializeOnLoadMethodAttributes (60ms)
+			BeforeProcessingInitializeOnLoad (6ms)
+			ProcessInitializeOnLoadAttributes (277ms)
+			ProcessInitializeOnLoadMethodAttributes (98ms)
 			AfterProcessingInitializeOnLoad (0ms)
-			EditorAssembliesLoaded (0ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
 ========================================================================
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in 17.478 seconds
+- Loaded All Assemblies, in  7.532 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.407 seconds
-Domain Reload Profiling: 18878ms
-	BeginReloadAssembly (298ms)
+- Finished resetting the current domain, in  2.375 seconds
+Domain Reload Profiling: 9929ms
+	BeginReloadAssembly (1538ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
+		DisableScriptedObjects (143ms)
 		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (34ms)
-	RebuildCommonClasses (45ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (74ms)
-	LoadAllAssembliesAndSetupDomain (17041ms)
-		LoadAssemblies (16571ms)
+		ReleaseScriptingObjects (2ms)
+		CreateAndSetChildDomain (375ms)
+	RebuildCommonClasses (123ms)
+	RebuildNativeTypeToScriptingClass (34ms)
+	initialDomainReloadingComplete (183ms)
+	LoadAllAssembliesAndSetupDomain (5673ms)
+		LoadAssemblies (5548ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (672ms)
-			TypeCache.Refresh (642ms)
-				TypeCache.ScanAssembly (622ms)
-			ScanForSourceGeneratedMonoScriptInfo (21ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (1408ms)
+		AnalyzeDomain (502ms)
+			TypeCache.Refresh (405ms)
+				TypeCache.ScanAssembly (347ms)
+			ScanForSourceGeneratedMonoScriptInfo (71ms)
+			ResolveRequiredComponents (22ms)
+	FinalizeReload (2377ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1236ms)
+		SetupLoadedEditorAssemblies (1896ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (10ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (69ms)
-			ProcessInitializeOnLoadAttributes (1122ms)
-			ProcessInitializeOnLoadMethodAttributes (25ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (0ms)
+			BeforeProcessingInitializeOnLoad (148ms)
+			ProcessInitializeOnLoadAttributes (1629ms)
+			ProcessInitializeOnLoadMethodAttributes (71ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (2ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+		AwakeInstancesAfterBackupRestoration (25ms)
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.22 seconds
-Refreshing native plugins compatible for Editor in 27.49 ms, found 3 plugins.
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.38 seconds
+Refreshing native plugins compatible for Editor in 18.04 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3400 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 19 unused Assets / (54.8 KB). Loaded Objects now: 3872.
-Memory consumption went from 136.2 MB to 136.1 MB.
-Total: 7.105600 ms (FindLiveObjects: 0.587700 ms CreateObjectMapping: 0.436100 ms MarkObjects: 5.890700 ms  DeleteObjects: 0.189000 ms)
+Unloading 19 unused Assets / (55.2 KB). Loaded Objects now: 3872.
+Memory consumption went from 136.2 MB to 136.2 MB.
+Total: 20.642300 ms (FindLiveObjects: 1.350100 ms CreateObjectMapping: 0.363000 ms MarkObjects: 17.276300 ms  DeleteObjects: 1.649700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -181,55 +181,57 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 3b6799b446bf20127ef03a392683dfe0 -> 3367f1f5ed1825936193cbe73732a6a9
+  custom:scripting/monoscript/fileName/EndCinematicManager.cs:  -> fcc2a6ba42c586a87e67e49e7818a249
 ========================================================================
 Received Prepare
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.603 seconds
+- Loaded All Assemblies, in  1.644 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.712 seconds
-Domain Reload Profiling: 2314ms
-	BeginReloadAssembly (235ms)
+- Finished resetting the current domain, in  4.671 seconds
+Domain Reload Profiling: 6306ms
+	BeginReloadAssembly (544ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
+		DisableScriptedObjects (23ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (81ms)
-	RebuildCommonClasses (35ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (292ms)
-		LoadAssemblies (374ms)
+		CreateAndSetChildDomain (103ms)
+	RebuildCommonClasses (101ms)
+	RebuildNativeTypeToScriptingClass (43ms)
+	initialDomainReloadingComplete (126ms)
+	LoadAllAssembliesAndSetupDomain (820ms)
+		LoadAssemblies (1110ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (19ms)
-			TypeCache.Refresh (10ms)
+		AnalyzeDomain (38ms)
+			TypeCache.Refresh (17ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (1713ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (4674ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (780ms)
+		SetupLoadedEditorAssemblies (1190ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (6ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (10ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (74ms)
-			ProcessInitializeOnLoadAttributes (654ms)
-			ProcessInitializeOnLoadMethodAttributes (30ms)
-			AfterProcessingInitializeOnLoad (5ms)
+			BeforeProcessingInitializeOnLoad (132ms)
+			ProcessInitializeOnLoadAttributes (989ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (14ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+		AwakeInstancesAfterBackupRestoration (13ms)
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 6.03 ms, found 3 plugins.
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 11.84 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3364 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3876.
-Memory consumption went from 128.1 MB to 128.1 MB.
-Total: 8.610600 ms (FindLiveObjects: 0.454100 ms CreateObjectMapping: 0.405000 ms MarkObjects: 7.592200 ms  DeleteObjects: 0.151800 ms)
+Unloading 3365 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3877.
+Memory consumption went from 128.2 MB to 128.2 MB.
+Total: 6.648300 ms (FindLiveObjects: 0.398100 ms CreateObjectMapping: 0.195500 ms MarkObjects: 5.973200 ms  DeleteObjects: 0.079400 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -246,54 +248,131 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 16711.834504 seconds.
+  path: Assets/Scripts/EndCinematicManager.cs
+  artifactKey: Guid(08da99401c9f23045ae4a835623cf21d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/EndCinematicManager.cs using Guid(08da99401c9f23045ae4a835623cf21d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.049851 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/endcinematicmanager.cs in SourceAssetDB has modification time of '2025-11-01T19:12:31.7508049Z' while content on disk has modification time of '2025-11-01T19:13:06.5176501Z'
+  ERROR: Build asset version error: assets/scripts/endcinematicmanager.cs in SourceAssetDB has modification time of '2025-11-01T19:12:31.7508049Z' while content on disk has modification time of '2025-11-01T19:13:06.5176501Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
 Received Prepare
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  2.338 seconds
+- Loaded All Assemblies, in  1.276 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.856 seconds
-Domain Reload Profiling: 4195ms
-	BeginReloadAssembly (993ms)
+- Finished resetting the current domain, in  3.139 seconds
+Domain Reload Profiling: 4416ms
+	BeginReloadAssembly (490ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (43ms)
+		DisableScriptedObjects (14ms)
 		BackupInstance (0ms)
-		ReleaseScriptingObjects (4ms)
-		CreateAndSetChildDomain (453ms)
-	RebuildCommonClasses (59ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (51ms)
-	LoadAllAssembliesAndSetupDomain (1225ms)
-		LoadAssemblies (1453ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (166ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (686ms)
+		LoadAssemblies (832ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (94ms)
-			TypeCache.Refresh (46ms)
-				TypeCache.ScanAssembly (3ms)
-			ScanForSourceGeneratedMonoScriptInfo (32ms)
-			ResolveRequiredComponents (14ms)
-	FinalizeReload (1856ms)
+		AnalyzeDomain (89ms)
+			TypeCache.Refresh (37ms)
+				TypeCache.ScanAssembly (4ms)
+			ScanForSourceGeneratedMonoScriptInfo (28ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (3140ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (567ms)
+		SetupLoadedEditorAssemblies (858ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (93ms)
+			ProcessInitializeOnLoadAttributes (702ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 10.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3364 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3881.
+Memory consumption went from 127.9 MB to 127.9 MB.
+Total: 9.267700 ms (FindLiveObjects: 0.917800 ms CreateObjectMapping: 0.332400 ms MarkObjects: 7.868800 ms  DeleteObjects: 0.146600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 24d43f0a6fd17389977d9b9c289f5b9c -> 3367f1f5ed1825936193cbe73732a6a9
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.668 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.142 seconds
+Domain Reload Profiling: 2809ms
+	BeginReloadAssembly (191ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (412ms)
+		LoadAssemblies (491ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (32ms)
+			TypeCache.Refresh (15ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (2142ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (619ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (9ms)
 			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (63ms)
-			ProcessInitializeOnLoadAttributes (460ms)
-			ProcessInitializeOnLoadMethodAttributes (23ms)
-			AfterProcessingInitializeOnLoad (5ms)
+			BeforeProcessingInitializeOnLoad (69ms)
+			ProcessInitializeOnLoadAttributes (511ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+		AwakeInstancesAfterBackupRestoration (6ms)
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 3.43 ms, found 3 plugins.
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 2.49 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3364 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3880.
-Memory consumption went from 128.1 MB to 128.1 MB.
-Total: 36.966000 ms (FindLiveObjects: 0.320400 ms CreateObjectMapping: 0.103200 ms MarkObjects: 36.451400 ms  DeleteObjects: 0.088900 ms)
+Unloading 3366 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3886.
+Memory consumption went from 128.2 MB to 128.2 MB.
+Total: 5.022600 ms (FindLiveObjects: 0.445900 ms CreateObjectMapping: 0.152000 ms MarkObjects: 4.334800 ms  DeleteObjects: 0.088400 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -308,56 +387,58 @@ AssetImportParameters requested are different than current active one (requested
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/RedEndZone.cs: 604e8c18307ed9768c16157b4b70649d -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 5396e5e3f6d11e92d67778c6c8c280ed -> 3367f1f5ed1825936193cbe73732a6a9
 ========================================================================
 Received Prepare
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.423 seconds
+- Loaded All Assemblies, in  1.409 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.028 seconds
-Domain Reload Profiling: 1450ms
-	BeginReloadAssembly (133ms)
+- Finished resetting the current domain, in  2.106 seconds
+Domain Reload Profiling: 3514ms
+	BeginReloadAssembly (289ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (9ms)
 		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (29ms)
-	RebuildCommonClasses (29ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (71ms)
+	RebuildCommonClasses (45ms)
 	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (24ms)
-	LoadAllAssembliesAndSetupDomain (227ms)
-		LoadAssemblies (286ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (1023ms)
+		LoadAssemblies (1150ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (13ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (1029ms)
+		AnalyzeDomain (43ms)
+			TypeCache.Refresh (18ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (14ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (2106ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (628ms)
+		SetupLoadedEditorAssemblies (652ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (54ms)
-			ProcessInitializeOnLoadAttributes (523ms)
-			ProcessInitializeOnLoadMethodAttributes (33ms)
-			AfterProcessingInitializeOnLoad (8ms)
+			BeforeProcessingInitializeOnLoad (68ms)
+			ProcessInitializeOnLoadAttributes (536ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+		AwakeInstancesAfterBackupRestoration (8ms)
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 2.86 ms, found 3 plugins.
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 2.64 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3364 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3884.
-Memory consumption went from 128.1 MB to 128.1 MB.
-Total: 5.901800 ms (FindLiveObjects: 0.657300 ms CreateObjectMapping: 0.189700 ms MarkObjects: 4.949800 ms  DeleteObjects: 0.102800 ms)
+Unloading 3366 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3890.
+Memory consumption went from 128.2 MB to 128.2 MB.
+Total: 6.418400 ms (FindLiveObjects: 0.327300 ms CreateObjectMapping: 0.187300 ms MarkObjects: 5.793000 ms  DeleteObjects: 0.109100 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -372,4 +453,1230 @@ AssetImportParameters requested are different than current active one (requested
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/RedEndZone.cs: 604e8c18307ed9768c16157b4b70649d -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 5396e5e3f6d11e92d67778c6c8c280ed -> 3367f1f5ed1825936193cbe73732a6a9
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.760 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.016 seconds
+Domain Reload Profiling: 6774ms
+	BeginReloadAssembly (561ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (17ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (241ms)
+	RebuildCommonClasses (71ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (65ms)
+	LoadAllAssembliesAndSetupDomain (2038ms)
+		LoadAssemblies (2168ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (96ms)
+			TypeCache.Refresh (38ms)
+				TypeCache.ScanAssembly (4ms)
+			ScanForSourceGeneratedMonoScriptInfo (40ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (4018ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1183ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (79ms)
+			ProcessInitializeOnLoadAttributes (1031ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 26.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3367 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3895.
+Memory consumption went from 128.2 MB to 128.2 MB.
+Total: 9.973300 ms (FindLiveObjects: 0.585400 ms CreateObjectMapping: 0.223300 ms MarkObjects: 9.038600 ms  DeleteObjects: 0.124100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/ZonePulse.cs: 4aeed2b8afeb3d2361696973fde36b4f -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/RedEndZone.cs: 604e8c18307ed9768c16157b4b70649d -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: cdd8e9213afec08c4ce6960cd8a743a1 -> 3367f1f5ed1825936193cbe73732a6a9
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.629 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.978 seconds
+Domain Reload Profiling: 2605ms
+	BeginReloadAssembly (164ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (387ms)
+		LoadAssemblies (455ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (26ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1979ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (672ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (82ms)
+			ProcessInitializeOnLoadAttributes (552ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 7.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3367 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.6 KB). Loaded Objects now: 3899.
+Memory consumption went from 128.2 MB to 128.2 MB.
+Total: 4.965700 ms (FindLiveObjects: 0.279900 ms CreateObjectMapping: 0.126200 ms MarkObjects: 4.477500 ms  DeleteObjects: 0.080200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/ZonePulse.cs: 4aeed2b8afeb3d2361696973fde36b4f -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/RedEndZone.cs: 604e8c18307ed9768c16157b4b70649d -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: cdd8e9213afec08c4ce6960cd8a743a1 -> 3367f1f5ed1825936193cbe73732a6a9
+========================================================================
+Received Import Request.
+  Time since last request: 178.230193 seconds.
+  path: Assets/Scripts/ZonePulse.cs
+  artifactKey: Guid(668da0a550e0abc4fbb8b3c3fb013d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ZonePulse.cs using Guid(668da0a550e0abc4fbb8b3c3fb013d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '889fafc377ce6ed8eb8d408c6d72a89b') in 0.008186 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 223.965380 seconds.
+  path: Assets/Video/intro.mp4
+  artifactKey: Guid(c1c1338d1c1f0b34aa459093dd7a34b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Video/intro.mp4 using Guid(c1c1338d1c1f0b34aa459093dd7a34b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3981cc4a038e3b2d283c575271c847a5') in 0.096421 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 10.924 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 48.684 seconds
+Domain Reload Profiling: 59620ms
+	BeginReloadAssembly (1698ms)
+		ExecutionOrderSort (1ms)
+		DisableScriptedObjects (56ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (2ms)
+		CreateAndSetChildDomain (884ms)
+	RebuildCommonClasses (261ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (83ms)
+	LoadAllAssembliesAndSetupDomain (8872ms)
+		LoadAssemblies (9298ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (52ms)
+			TypeCache.Refresh (27ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (22ms)
+	FinalizeReload (48686ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (993ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (13ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (196ms)
+			ProcessInitializeOnLoadAttributes (726ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (3ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (40ms)
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 2.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3366 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3904.
+Memory consumption went from 128.0 MB to 128.0 MB.
+Total: 27.598300 ms (FindLiveObjects: 0.808800 ms CreateObjectMapping: 0.124900 ms MarkObjects: 26.070300 ms  DeleteObjects: 0.591600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/ZonePulse.cs: 4aeed2b8afeb3d2361696973fde36b4f -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/RedEndZone.cs: 604e8c18307ed9768c16157b4b70649d -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: cdd8e9213afec08c4ce6960cd8a743a1 -> 3367f1f5ed1825936193cbe73732a6a9
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.869 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.855 seconds
+Domain Reload Profiling: 3725ms
+	BeginReloadAssembly (260ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (77ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (535ms)
+		LoadAssemblies (649ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (27ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (2857ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (892ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (98ms)
+			ProcessInitializeOnLoadAttributes (736ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 4.29 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3367 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3908.
+Memory consumption went from 128.3 MB to 128.2 MB.
+Total: 6.479300 ms (FindLiveObjects: 0.388400 ms CreateObjectMapping: 0.149000 ms MarkObjects: 5.859900 ms  DeleteObjects: 0.079400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/ZonePulse.cs: 4aeed2b8afeb3d2361696973fde36b4f -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/RedEndZone.cs: 604e8c18307ed9768c16157b4b70649d -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: cdd8e9213afec08c4ce6960cd8a743a1 -> 3367f1f5ed1825936193cbe73732a6a9
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.664 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.436 seconds
+Domain Reload Profiling: 4101ms
+	BeginReloadAssembly (195ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (390ms)
+		LoadAssemblies (465ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (27ms)
+			TypeCache.Refresh (14ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (3437ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (946ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (14ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (81ms)
+			ProcessInitializeOnLoadAttributes (794ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 6.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3367 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3912.
+Memory consumption went from 128.3 MB to 128.2 MB.
+Total: 6.618100 ms (FindLiveObjects: 0.402400 ms CreateObjectMapping: 0.120700 ms MarkObjects: 5.966400 ms  DeleteObjects: 0.126800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/ZonePulse.cs: 4aeed2b8afeb3d2361696973fde36b4f -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/RedEndZone.cs: 604e8c18307ed9768c16157b4b70649d -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: cdd8e9213afec08c4ce6960cd8a743a1 -> 3367f1f5ed1825936193cbe73732a6a9
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.789 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.782 seconds
+Domain Reload Profiling: 4578ms
+	BeginReloadAssembly (551ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (25ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (221ms)
+	RebuildCommonClasses (75ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (67ms)
+	LoadAllAssembliesAndSetupDomain (1077ms)
+		LoadAssemblies (1210ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (45ms)
+			TypeCache.Refresh (26ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (2783ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1088ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			SetLoadedEditorAssemblies (17ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (101ms)
+			ProcessInitializeOnLoadAttributes (885ms)
+			ProcessInitializeOnLoadMethodAttributes (55ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 8.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3367 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.6 KB). Loaded Objects now: 3916.
+Memory consumption went from 128.3 MB to 128.2 MB.
+Total: 10.120200 ms (FindLiveObjects: 0.699000 ms CreateObjectMapping: 0.360000 ms MarkObjects: 8.488100 ms  DeleteObjects: 0.570500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/ZonePulse.cs: 4aeed2b8afeb3d2361696973fde36b4f -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/RedEndZone.cs: 604e8c18307ed9768c16157b4b70649d -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: cdd8e9213afec08c4ce6960cd8a743a1 -> 3367f1f5ed1825936193cbe73732a6a9
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.575 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.750 seconds
+Domain Reload Profiling: 3322ms
+	BeginReloadAssembly (181ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (293ms)
+		LoadAssemblies (365ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (29ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (2750ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (949ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (55ms)
+			ProcessInitializeOnLoadAttributes (850ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 5.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3367 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.7 KB). Loaded Objects now: 3920.
+Memory consumption went from 128.3 MB to 128.2 MB.
+Total: 5.917500 ms (FindLiveObjects: 0.352500 ms CreateObjectMapping: 0.157900 ms MarkObjects: 5.220600 ms  DeleteObjects: 0.184200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/ZonePulse.cs: 4aeed2b8afeb3d2361696973fde36b4f -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/RedEndZone.cs: 604e8c18307ed9768c16157b4b70649d -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: cdd8e9213afec08c4ce6960cd8a743a1 -> 3367f1f5ed1825936193cbe73732a6a9
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.268 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.264 seconds
+Domain Reload Profiling: 4532ms
+	BeginReloadAssembly (1351ms)
+		ExecutionOrderSort (1ms)
+		DisableScriptedObjects (80ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (3ms)
+		CreateAndSetChildDomain (630ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (63ms)
+	LoadAllAssembliesAndSetupDomain (783ms)
+		LoadAssemblies (1097ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (59ms)
+			TypeCache.Refresh (32ms)
+				TypeCache.ScanAssembly (2ms)
+			ScanForSourceGeneratedMonoScriptInfo (15ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (2264ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (587ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (58ms)
+			ProcessInitializeOnLoadAttributes (492ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 3.30 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3367 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.6 KB). Loaded Objects now: 3924.
+Memory consumption went from 128.3 MB to 128.2 MB.
+Total: 14.449800 ms (FindLiveObjects: 0.361800 ms CreateObjectMapping: 0.100900 ms MarkObjects: 12.968800 ms  DeleteObjects: 1.016400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/ZonePulse.cs: 4aeed2b8afeb3d2361696973fde36b4f -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/RedEndZone.cs: 604e8c18307ed9768c16157b4b70649d -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: cdd8e9213afec08c4ce6960cd8a743a1 -> 3367f1f5ed1825936193cbe73732a6a9
+========================================================================
+Received Import Request.
+  Time since last request: 79362.696138 seconds.
+  path: Assets/Scripts/EndCinematicManager.cs
+  artifactKey: Guid(08da99401c9f23045ae4a835623cf21d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/EndCinematicManager.cs using Guid(08da99401c9f23045ae4a835623cf21d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '13258a572072825643893f7e70008d66') in 0.022108 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.799 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.162 seconds
+Domain Reload Profiling: 6963ms
+	BeginReloadAssembly (1137ms)
+		ExecutionOrderSort (1ms)
+		DisableScriptedObjects (43ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (2ms)
+		CreateAndSetChildDomain (387ms)
+	RebuildCommonClasses (80ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (71ms)
+	LoadAllAssembliesAndSetupDomain (1499ms)
+		LoadAssemblies (1979ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (56ms)
+			TypeCache.Refresh (27ms)
+				TypeCache.ScanAssembly (2ms)
+			ScanForSourceGeneratedMonoScriptInfo (15ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (4164ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1725ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (16ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (176ms)
+			ProcessInitializeOnLoadAttributes (1443ms)
+			ProcessInitializeOnLoadMethodAttributes (60ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (2ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (25ms)
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 16.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3366 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.7 KB). Loaded Objects now: 3928.
+Memory consumption went from 128.0 MB to 128.0 MB.
+Total: 10.605500 ms (FindLiveObjects: 0.564400 ms CreateObjectMapping: 0.345000 ms MarkObjects: 9.583300 ms  DeleteObjects: 0.110500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/ZonePulse.cs: 4aeed2b8afeb3d2361696973fde36b4f -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/RedEndZone.cs: 604e8c18307ed9768c16157b4b70649d -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: cdd8e9213afec08c4ce6960cd8a743a1 -> 3367f1f5ed1825936193cbe73732a6a9
+========================================================================
+Received Import Request.
+  Time since last request: 93.678705 seconds.
+  path: Assets/Scripts/RedEndZone.cs
+  artifactKey: Guid(9ddf0335ae3420c49af163e1b66c9d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RedEndZone.cs using Guid(9ddf0335ae3420c49af163e1b66c9d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'bfa631b47042ab596e20b2655dd1eafc') in 0.038470 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.911 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.290 seconds
+Domain Reload Profiling: 3199ms
+	BeginReloadAssembly (294ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (80ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (539ms)
+		LoadAssemblies (647ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (58ms)
+			TypeCache.Refresh (28ms)
+				TypeCache.ScanAssembly (2ms)
+			ScanForSourceGeneratedMonoScriptInfo (18ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (2291ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (660ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (70ms)
+			ProcessInitializeOnLoadAttributes (544ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 5.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3366 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.7 KB). Loaded Objects now: 3932.
+Memory consumption went from 128.0 MB to 128.0 MB.
+Total: 4.381000 ms (FindLiveObjects: 0.263800 ms CreateObjectMapping: 0.165500 ms MarkObjects: 3.828600 ms  DeleteObjects: 0.121300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/ZonePulse.cs: 4aeed2b8afeb3d2361696973fde36b4f -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/RedEndZone.cs: 604e8c18307ed9768c16157b4b70649d -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: cdd8e9213afec08c4ce6960cd8a743a1 -> 3367f1f5ed1825936193cbe73732a6a9
+========================================================================
+Received Import Request.
+  Time since last request: 25.575600 seconds.
+  path: Assets/Scripts/ZonePulse.cs
+  artifactKey: Guid(668da0a550e0abc4fbb8b3c3fb013d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ZonePulse.cs using Guid(668da0a550e0abc4fbb8b3c3fb013d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'fbf3b6a01a0a02d31ae15c59271fc5ac') in 0.006226 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.656 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.440 seconds
+Domain Reload Profiling: 3097ms
+	BeginReloadAssembly (177ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (402ms)
+		LoadAssemblies (471ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (20ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (2441ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (901ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (13ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (94ms)
+			ProcessInitializeOnLoadAttributes (730ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 6.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3366 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.6 KB). Loaded Objects now: 3936.
+Memory consumption went from 128.0 MB to 128.0 MB.
+Total: 7.842300 ms (FindLiveObjects: 0.337500 ms CreateObjectMapping: 0.197500 ms MarkObjects: 7.201600 ms  DeleteObjects: 0.104000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/ZonePulse.cs: 4aeed2b8afeb3d2361696973fde36b4f -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/RedEndZone.cs: 604e8c18307ed9768c16157b4b70649d -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: cdd8e9213afec08c4ce6960cd8a743a1 -> 3367f1f5ed1825936193cbe73732a6a9
+========================================================================
+Received Import Request.
+  Time since last request: 229.217703 seconds.
+  path: Assets/SciFi Warehouse Kit/Art/Materials/barrel_s.mat
+  artifactKey: Guid(61618e2271b3bdb47b5b4c628d9b092c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Art/Materials/barrel_s.mat using Guid(61618e2271b3bdb47b5b4c628d9b092c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0108e3780a2aab829b32f7e74012c41a') in 0.558738 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.187408 seconds.
+  path: Assets/SciFi Warehouse Kit/Art/Materials/Bay Door Mat.mat
+  artifactKey: Guid(539deafe5793ec347a4a6f6754e3393c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Art/Materials/Bay Door Mat.mat using Guid(539deafe5793ec347a4a6f6754e3393c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ead897d0d8556d2c10e67b78c4749bbb') in 0.128934 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/source/Materials/Box007Mat.mat
+  artifactKey: Guid(1b8766f136a8fd3449c316b9c3a03e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/source/Materials/Box007Mat.mat using Guid(1b8766f136a8fd3449c316b9c3a03e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '043c2a121cd98b09ba3325760ef6e619') in 0.044825 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/source/Materials/Box009Mat.mat
+  artifactKey: Guid(0d3279db603be7547968fb42505efeab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/source/Materials/Box009Mat.mat using Guid(0d3279db603be7547968fb42505efeab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f21ca2b73b58a755f99018da1fc5301f') in 0.033982 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001669 seconds.
+  path: Assets/source/Materials/Box011Mat.mat
+  artifactKey: Guid(b9fd1aa9cdff70b4195c06baf95e2ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/source/Materials/Box011Mat.mat using Guid(b9fd1aa9cdff70b4195c06baf95e2ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'afe7e8a4a74adfbf9ca58438ffec7bad') in 0.030576 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.425176 seconds.
+  path: Assets/source/Materials/Box013Mat.mat
+  artifactKey: Guid(374edd1e51b1dc14795e582510982fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/source/Materials/Box013Mat.mat using Guid(374edd1e51b1dc14795e582510982fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6457ca929b4b5e1e01dc82bbdaff30a8') in 0.028504 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.333895 seconds.
+  path: Assets/source/Materials/Box018Mat.mat
+  artifactKey: Guid(bfe72be10fde1ca429ff0c783984043d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/source/Materials/Box018Mat.mat using Guid(bfe72be10fde1ca429ff0c783984043d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6837e82563abb20b1320b0fe2e7fac18') in 0.028093 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.063198 seconds.
+  path: Assets/SciFi Warehouse Kit/Art/Materials/Cart Mat.mat
+  artifactKey: Guid(baab5468dbdb114448b307048c9006a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Art/Materials/Cart Mat.mat using Guid(baab5468dbdb114448b307048c9006a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '40e1630313a107522251b99924cd5c4c') in 0.099117 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.270784 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr aura rays hdr ab nosp.mat
+  artifactKey: Guid(59b66e1956031654985c136e6927a7d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr aura rays hdr ab nosp.mat using Guid(59b66e1956031654985c136e6927a7d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b333e2f6eaec1c1fa918c6857adbb45b') in 0.152608 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.116736 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr blood dissolve ab.mat
+  artifactKey: Guid(28dde998c7abf234498a42d0aab38421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr blood dissolve ab.mat using Guid(28dde998c7abf234498a42d0aab38421) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '002e911bd503f211fe3170988658b899') in 0.183240 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr blood splash dissolve ab.mat
+  artifactKey: Guid(ccfff22ed954c6f41ade040a8a7c8f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr blood splash dissolve ab.mat using Guid(ccfff22ed954c6f41ade040a8a7c8f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '45d4ea209425ec07e7c28712f85c4e3a') in 0.067692 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr bubble 2 ab.mat
+  artifactKey: Guid(21417cf5ab018164f9d28d2e35ad8cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr bubble 2 ab.mat using Guid(21417cf5ab018164f9d28d2e35ad8cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '98195e29a774d12c587c1dd7836ee5e2') in 0.160510 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr card heart ab.mat
+  artifactKey: Guid(56dcdb394ebaf9841bfd56db0f1ea05c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr card heart ab.mat using Guid(56dcdb394ebaf9841bfd56db0f1ea05c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd6ad27f1c8780be9d3981548ab6d8998') in 0.071741 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.217647 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr cloud blur add.mat
+  artifactKey: Guid(0eb2f2d564c8c87418392fdf927b2cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr cloud blur add.mat using Guid(0eb2f2d564c8c87418392fdf927b2cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7fb2d964bea226ab00c068aeba3e3efa') in 0.095106 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr debris 3x3 ab lit emission.mat
+  artifactKey: Guid(f7ffbf43e28f7014d968ef0d50836718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr debris 3x3 ab lit emission.mat using Guid(f7ffbf43e28f7014d968ef0d50836718) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '73ff7dddfcf22a6e5da3c88dc3089ecf') in 0.113741 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.171299 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr debris flat unlit 3x3 ab hdr.mat
+  artifactKey: Guid(a6b83a8798dc3f748822ba3b239a8728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr debris flat unlit 3x3 ab hdr.mat using Guid(a6b83a8798dc3f748822ba3b239a8728) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '71a1023c64810e508e34670720b7a18d') in 0.059064 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr debris unlit 3x3 ab.mat
+  artifactKey: Guid(0ab14112d95c069419bd90ef39fba9b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr debris unlit 3x3 ab.mat using Guid(0ab14112d95c069419bd90ef39fba9b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '789a19a9c8bac49a95567e17e9c82d3e') in 0.064852 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.189136 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr debris wood unlit 3x3 ab.mat
+  artifactKey: Guid(b312598f1eedcea46af6f9284bb88a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr debris wood unlit 3x3 ab.mat using Guid(b312598f1eedcea46af6f9284bb88a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '534399a9060f5518cdf1aa143b470491') in 0.061426 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo Ground URP.mat
+  artifactKey: Guid(542e5e9d1f2d2e74eb33676a59eca6f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo Ground URP.mat using Guid(542e5e9d1f2d2e74eb33676a59eca6f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '78cf766dfb923b21ad1cd2f78f3784ae') in 0.035493 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr electric arcs fade x4 hdr ab.mat
+  artifactKey: Guid(df4afccabf3812f4eb84570337f5bcd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr electric arcs fade x4 hdr ab.mat using Guid(df4afccabf3812f4eb84570337f5bcd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1f42ebc983d8db84581b4ec61451a479') in 0.089772 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr electric small anim 4x2 hdr.mat
+  artifactKey: Guid(b41c12b9e8d21c442affcda9d5c050f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr electric small anim 4x2 hdr.mat using Guid(b41c12b9e8d21c442affcda9d5c050f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9d1e99b26ba6d46bdb97d39c32bcec90') in 0.058059 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr electric arc anim x4.mat
+  artifactKey: Guid(21ce22ee4a68b854f8df2b3f4de750e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr electric arc anim x4.mat using Guid(21ce22ee4a68b854f8df2b3f4de750e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7c5a1f9eda66951e070e0eca5935b8be') in 0.105259 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.032670 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr electric sparks ab.mat
+  artifactKey: Guid(75b0637026ec53946a826eb34b74157e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr electric sparks ab.mat using Guid(75b0637026ec53946a826eb34b74157e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'beaa81db9440d082c98c3518fa162fd9') in 0.047622 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.010409 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr ember blur hdr ab.mat
+  artifactKey: Guid(6cd2d08f4a4d93542aa0004bdac91566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr ember blur hdr ab.mat using Guid(6cd2d08f4a4d93542aa0004bdac91566) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a72b2b1217d9c9d023059c7df170c229') in 0.048375 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005666 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire circle blur hdr ab.mat
+  artifactKey: Guid(92f497a3f1c7b5d49ad1b2854dd5d2bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire circle blur hdr ab.mat using Guid(92f497a3f1c7b5d49ad1b2854dd5d2bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'bc769f5764816472b8f7f2b132e776e9') in 0.084942 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.094135 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire circle drawn blurred hdr ab.mat
+  artifactKey: Guid(a8134160c9be0aa42ad349f9232c6073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire circle drawn blurred hdr ab.mat using Guid(a8134160c9be0aa42ad349f9232c6073) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'df747087ad1e086a841c73b1a8bd6215') in 0.099418 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire circle plain hdr ab.mat
+  artifactKey: Guid(900acfa037f7a0242b5afdeea8ff53bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire circle plain hdr ab.mat using Guid(900acfa037f7a0242b5afdeea8ff53bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0e6f9d04278346e3ec5f0ccaf093e55e') in 0.046107 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire crisp fade hdr ab.mat
+  artifactKey: Guid(433cfee66f74fd94fa6149666cfbea29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire crisp fade hdr ab.mat using Guid(433cfee66f74fd94fa6149666cfbea29) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7d20fd104bfffb9be7e20e9560f011df') in 0.045075 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.143951 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire full blurred fade hdr add.mat
+  artifactKey: Guid(3057ceabfc760ef45ba602a86f46bbe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire full blurred fade hdr add.mat using Guid(3057ceabfc760ef45ba602a86f46bbe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9f394ead39ca26dd1a6dafb5ea1df820') in 0.075620 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire small anim blurred hdr ab.mat
+  artifactKey: Guid(9fd7b93f5b2bb4340b23ceb8bf5f8ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire small anim blurred hdr ab.mat using Guid(9fd7b93f5b2bb4340b23ceb8bf5f8ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '59f9f5c483078038eaea63c3152edaa7') in 0.059459 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.217820 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire stepped fade hdr ab.mat
+  artifactKey: Guid(e85fde2ff708fdf40ac2e97a57beea96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire stepped fade hdr ab.mat using Guid(e85fde2ff708fdf40ac2e97a57beea96) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6289426e96662acbf3cd7f526c8e32ba') in 0.051150 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme blur mid hdr ab.mat
+  artifactKey: Guid(82d1a4b93a158084aa5868eaed32cc23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme blur mid hdr ab.mat using Guid(82d1a4b93a158084aa5868eaed32cc23) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f1624b25dd06f753ddcb43bfd3bd6139') in 0.079428 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme blur stable hdr ab.mat
+  artifactKey: Guid(813a3e7e863a760429b02e9070a41e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme blur stable hdr ab.mat using Guid(813a3e7e863a760429b02e9070a41e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f9476bda55bfe52b996594e3ecfff761') in 0.032759 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 266.617934 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
+  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5480e4079e00746d9c1eeb1bb162543a') in 1.171696 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001486 seconds.
+  path: Assets/SciFi Warehouse Kit/Art/Textures/extinguisher_a.png
+  artifactKey: Guid(986145cfcac7b0849ae46bbdff06db4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Art/Textures/extinguisher_a.png using Guid(986145cfcac7b0849ae46bbdff06db4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7d1c5c1fc6069e185948c0a816460c25') in 0.115029 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/SciFi Warehouse Kit/Art/Textures/extinguisher_s.png
+  artifactKey: Guid(f946a027abe17c04c993b2385163fd73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Art/Textures/extinguisher_s.png using Guid(f946a027abe17c04c993b2385163fd73) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'fa97b0e5bef90e7687a431e1f68902fb') in 0.059452 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/SciFi Warehouse Kit/Art/Textures/extinguisher_n.png
+  artifactKey: Guid(34c2ef1ae4e13fd4f909be4cb80e2641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Art/Textures/extinguisher_n.png using Guid(34c2ef1ae4e13fd4f909be4cb80e2641) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3d61572d02bcb6e70b8b061a0a725bc0') in 0.589085 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  5.265 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.222 seconds
+Domain Reload Profiling: 7494ms
+	BeginReloadAssembly (2216ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (119ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (6ms)
+		CreateAndSetChildDomain (1113ms)
+	RebuildCommonClasses (94ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (108ms)
+	LoadAllAssembliesAndSetupDomain (2839ms)
+		LoadAssemblies (3417ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (41ms)
+			TypeCache.Refresh (26ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (2223ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (987ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (16ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (101ms)
+			ProcessInitializeOnLoadAttributes (797ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 3.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3366 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.6 KB). Loaded Objects now: 3984.
+Memory consumption went from 133.3 MB to 133.3 MB.
+Total: 8.559800 ms (FindLiveObjects: 0.281900 ms CreateObjectMapping: 0.120100 ms MarkObjects: 8.056100 ms  DeleteObjects: 0.099300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/ZonePulse.cs: 4aeed2b8afeb3d2361696973fde36b4f -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/RedEndZone.cs: 604e8c18307ed9768c16157b4b70649d -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: cdd8e9213afec08c4ce6960cd8a743a1 -> 3367f1f5ed1825936193cbe73732a6a9
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: Bir iþ parçacýðý çýkýþý veya bir uygulama isteði nedeniyle G/Ç iþlemi iptal edildi.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

@@ -64,6 +64,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
     <Compile Include="Assets\SciFi Warehouse Kit\Demo\Scripts\LightFlicker.cs" />
+    <Compile Include="Assets\Scripts\ZonePulse.cs" />
     <Compile Include="Assets\JMO Assets\WarFX\Demo\Assets\WFX_Demo_RandomDir.cs" />
     <Compile Include="Assets\SciFi Warehouse Kit\Demo\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
@@ -84,6 +85,7 @@
     <Compile Include="Assets\UI\Script\ArayuzKontrol.cs" />
     <Compile Include="Assets\JMO Assets\WarFX\Demo\Assets\CFX_Demo_RotateCamera.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
+    <Compile Include="Assets\Scripts\EndCinematicManager.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
     <Compile Include="Assets\JMO Assets\WarFX\Demo\Assets\WFX_Demo_New.cs" />
@@ -117,6 +119,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
     <Compile Include="Assets\Karakter\Kodlar\KameraKontrol.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
+    <Compile Include="Assets\Scripts\RedEndZone.cs" />
     <Compile Include="Assets\JMO Assets\WarFX\Spawn System\CFX_SpawnSystem.cs" />
     <Compile Include="Assets\JMO Assets\WarFX\Demo\Assets\WFX_Demo.cs" />
     <Compile Include="Assets\SciFi Warehouse Kit\Demo\Scripts\PushPhysics.cs" />
