@@ -7,7 +7,6 @@ public class KarakterKontrol : MonoBehaviour
     Animator anim;
     private CharacterController controller; // CharacterController bileşeni
 
-    // Hız Ayarları
     [Header("Hız Ayarları")]
     [SerializeField]
     private float normalHiz = 2f;
@@ -16,7 +15,6 @@ public class KarakterKontrol : MonoBehaviour
 
     private float gecerliHiz;
 
-    // Fizik ve Zıplama Ayarları
     [Header("Fizik Ayarları")]
     [SerializeField]
     private float yercekimi = -20f; // Yerçekimi değerini -9.81'den -20f'ye yükselttim (daha hızlı düşmesi için)
@@ -28,6 +26,13 @@ public class KarakterKontrol : MonoBehaviour
 
     private float saglik = 100;
     bool hayattaMi;
+
+    // YENİ EKLEME: Game Over UI Paneli
+    [Header("Ölüm Ayarları")]
+    [SerializeField] private GameObject gameOverPanel;
+
+    // YENİ EKLEME: Karakterin zaten ölüp ölmediğini kontrol etmek için
+    private bool isDead = false;
 
     void Start()
     {
@@ -44,10 +49,9 @@ public class KarakterKontrol : MonoBehaviour
         // YerdeMi kontrolünü controller.isGrounded'dan al
         yerdeMi = controller.isGrounded;
 
-        if (saglik <= 0)
+        if (saglik <= 0 && !isDead) // Sadece bir kere ölme metodunu çağır
         {
-            hayattaMi = false;
-            anim.SetBool("yasiyorMu", hayattaMi);
+            Die();
         }
 
         if (hayattaMi == true)
@@ -86,6 +90,31 @@ public class KarakterKontrol : MonoBehaviour
     {
         saglik -= Random.Range(5, 10);
     }
+
+    // YENİ METOT: Ölüm Anı Yönetimi
+    private void Die()
+    {
+        isDead = true;
+        hayattaMi = false;
+        anim.SetBool("yasiyorMu", hayattaMi);
+
+        // 1. Oyunu tamamen durdur. (Düşman hareketleri dahil)
+        Time.timeScale = 0f;
+
+        // 2. Game Over ekranını göster.
+        if (gameOverPanel != null)
+        {
+            gameOverPanel.SetActive(true);
+            // Fareyi görünür yap
+            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;
+        }
+        else
+        {
+            Debug.LogWarning("Game Over Paneli atanmadı! Oyun dondu, ancak ekran görünmüyor.");
+        }
+    }
+
 
     void Hareket()
     {

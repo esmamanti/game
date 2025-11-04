@@ -1,6 +1,6 @@
+using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
 
 public class AtesEtme : MonoBehaviour
 {
@@ -10,8 +10,8 @@ public class AtesEtme : MonoBehaviour
     public ParticleSystem muzzleFlash;
     Animator anim;
 
-    private float sarjor=30;
-    private float cephane = 240;
+    private float sarjor = 30;
+    private float cephane = 480;
     private float sarjorKapasite = 30;
 
     AudioSource sesKaynagi;
@@ -25,34 +25,45 @@ public class AtesEtme : MonoBehaviour
     {
         kamera = Camera.main;
         hpKontrol = this.gameObject.GetComponent<KarakterKontrol>();
-        anim=this.gameObject.GetComponent<Animator>();
-        sesKaynagi = this.gameObject.GetComponent<AudioSource>();
-        reload = this.gameObject.GetComponent<AudioSource>();
-
-
+        anim = this.gameObject.GetComponent<Animator>();
+        // Not: Birden fazla AudioSource almak için farklý metotlar kullanýn
+        AudioSource[] sesler = GetComponents<AudioSource>();
+        if (sesler.Length > 0) sesKaynagi = sesler[0];
+        if (sesler.Length > 1) reload = sesler[1];
+        // Eðer tek AudioSource varsa, sesKaynagi = GetComponent<AudioSource>(); kullanýlýr.
     }
 
     // Update is called once per frame
     void Update()
     {
+        // ------------------------------------------------------------------
+        // YENÝ KONTROL: PAUSE/GAME OVER KONTROLÜ
+        // Eðer oyun duraklatýldýysa (PauseMenuManager.GameIsPaused), inputlarý yok say.
+        // Bu, Devam Et butonuna basýlýrken yanlýþlýkla ateþ etmeyi engeller.
+        if (Time.timeScale == 0f)
+        {
+            return;
+        }
+        // ------------------------------------------------------------------
+
         if (hpKontrol.yasiyorMu() == true)
         {
+            // Input.GetMouseButton(0) = Basýlý tutulduðu sürece True
             if (Input.GetMouseButton(0))
             {
-                if(sarjor>0)
+                if (sarjor > 0)
                 {
-
                     anim.SetBool("atesEt", true);
                 }
-                if(sarjor<=0)
+                if (sarjor <= 0)
                 {
                     anim.SetBool("atesEt", false);
 
                 }
-                if(sarjor <=0 && cephane >0)
+                if (sarjor <= 0 && cephane > 0)
                 {
                     anim.SetBool("sarjorDegistirme", true);
-                    
+
                 }
 
             }
@@ -62,12 +73,11 @@ public class AtesEtme : MonoBehaviour
             }
         }
 
-        
 
     }
     public void SarjorDegistirme()
     {
-        reload.PlayOneShot(reloadSes);
+        if (reload != null) reload.PlayOneShot(reloadSes);
         cephane -= sarjorKapasite - sarjor;
         sarjor = sarjorKapasite;
         anim.SetBool("sarjorDegistirme", false);
@@ -75,13 +85,13 @@ public class AtesEtme : MonoBehaviour
     }
     public void AtesEt()
     {
-        
-        if(sarjor>0)
+
+        if (sarjor > 0)
         {
             Debug.Log("Ateþ Ettim");
             //MuzzleFlash();
 
-            sesKaynagi.PlayOneShot(atesSes);
+            if (sesKaynagi != null) sesKaynagi.PlayOneShot(atesSes);
             Ray ray = kamera.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0));
             RaycastHit hit;
             if (Physics.Raycast(ray, out hit, Mathf.Infinity, enemyKatman))
@@ -95,7 +105,9 @@ public class AtesEtme : MonoBehaviour
 
     }
     public void MuzzleFlash()
-    { muzzleFlash.Play(); }
+    {
+        if (muzzleFlash != null) muzzleFlash.Play();
+    }
 
     public float GetSarjor()
     { return sarjor; }
@@ -103,4 +115,3 @@ public class AtesEtme : MonoBehaviour
     public float GetCephane()
     { return cephane; }
 }
-

@@ -64,7 +64,7 @@ public class PauseMenuManager : MonoBehaviour
     {
         Time.timeScale = 1f;
         Time.fixedDeltaTime = _defaultFixedDelta;
-        SceneManager.LoadScene("MainMenuSceneName");
+        SceneManager.LoadScene("MainMenu");
     }
 
     public void RestartGame()

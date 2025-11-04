@@ -16,18 +16,18 @@ public class Enemy : MonoBehaviour
     public float saldýrmaMesafesi;
     float mesafe;
 
+    // Not: Bu deðiþkenin EnemySpawner'dan eriþilebilmesi için
+    // EnemySpawner'da GetComponent<NavMeshAgent>() kullanýldý.
     NavMeshAgent enemyNavMesh;
 
     GameObject hedefOyuncu;
 
     // ---------- Devriye (Patrol) ayarlarý ----------
     [Header("Devriye Ayarlarý")]
-    public Transform[] devriyeNoktalari;     // Inspector'dan doldur
+    public Transform[] devriyeNoktalari;      // Inspector'dan doldur
     public float devriyeBeklemeSuresi = 1f;  // noktada bekleme süresi (isteðe göre)
     private int mevcutNoktaIndex = 0;
     private float beklemeSayaci = 0f;
-    // YENÝ EKLEME: Hareket yönünü tutar (+1 ileri, -1 geri)
-    private int _hareketYonu = 1;
     // -----------------------------------------------
 
     void Start()
@@ -54,10 +54,24 @@ public class Enemy : MonoBehaviour
         }
     }
 
-    void Update(){
+    void Update()
+    {
+        // ------------------------------------------------------------------
+        // YENÝ EKLEME: GAME OVER KONTROLÜ (Oyun durmuþsa her þeyi kes)
+        if (Time.timeScale == 0f)
+        {
+            if (enemyNavMesh != null) enemyNavMesh.isStopped = true;
+            enemyAnim.SetBool("saldiriyor", false);
+            enemyAnim.SetBool("yuruyor", false);
+            enemyAnim.SetBool("devriye", false);
+            return; // Update döngüsünün geri kalanýný çalýþtýrma
+        }
+        // ------------------------------------------------------------------
+
+        // Animasyon Hýzý Kontrolü (Yürüme/Koþma için)
         float currentSpeed = enemyNavMesh.velocity.magnitude;
         enemyAnim.SetFloat("speed", currentSpeed);
-    
+
         if (enemyHP <= 0)
         {
             enemyOlu = true;
@@ -117,25 +131,13 @@ public class Enemy : MonoBehaviour
                     if (beklemeSayaci >= devriyeBeklemeSuresi)
                     {
                         // ----------------------------------------------------
-                        // GÜNCELLENMÝÞ DEVRIYE ROTASYON MANTIÐI (PING-PONG)
+                        // BASÝT DÖNGÜSEL DEVRIYE MANTIÐI (1->2->3->1...)
                         // ----------------------------------------------------
 
-                        // Eðer en sondaki noktadaysak (mevcutNoktaIndex == Length - 1), yönü tersine çevir (-1)
-                        if (mevcutNoktaIndex == devriyeNoktalari.Length - 1)
-                        {
-                            _hareketYonu = -1;
-                        }
-                        // Eðer en baþtaki noktadaysak (mevcutNoktaIndex == 0), yönü ileri çevir (+1)
-                        else if (mevcutNoktaIndex == 0)
-                        {
-                            _hareketYonu = 1;
-                        }
+                        // Sonraki noktaya geç (Modulo operatörü ile döngüyü saðlar)
+                        mevcutNoktaIndex = (mevcutNoktaIndex + 1) % devriyeNoktalari.Length;
 
-                        // Yöne göre yeni indeksi hesapla (eski: sadece mevcutNoktaIndex = (mevcutNoktaIndex + 1) % devriyeNoktalari.Length;)
-                        mevcutNoktaIndex += _hareketYonu;
-
-                        // ----------------------------------------------------
-
+                        // Yeni hedefi ayarla
                         enemyNavMesh.SetDestination(devriyeNoktalari[mevcutNoktaIndex].position);
                         enemyNavMesh.isStopped = false;
                         beklemeSayaci = 0f;
@@ -167,6 +169,14 @@ public class Enemy : MonoBehaviour
     IEnumerator YokOl()
     {
         yield return new WaitForSeconds(5);
+
+        // YENÝ EKLEME: EnemySpawner sayacýný azalt
+        EnemySpawner spawner = FindObjectOfType<EnemySpawner>();
+        if (spawner != null)
+        {
+            spawner.EnemyDestroyed();
+        }
+
         Destroy(this.gameObject);
     }
 

@@ -88,6 +88,7 @@
     <Compile Include="Assets\Scripts\EndCinematicManager.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
+    <Compile Include="Assets\Scripts\LightSceneLoader.cs" />
     <Compile Include="Assets\JMO Assets\WarFX\Demo\Assets\WFX_Demo_New.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
     <Compile Include="Assets\Enemy\Kodlar\Enemy.cs" />
@@ -115,6 +116,7 @@
     <Compile Include="Assets\JMO Assets\WarFX\Scripts\WFX_BulletHoleDecal.cs" />
     <Compile Include="Assets\JMO Assets\WarFX\Demo\Assets\CFX_Demo_RandomDir.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
+    <Compile Include="Assets\Enemy\Kodlar\EnemySpawner.cs" />
     <Compile Include="Assets\SciFi Warehouse Kit\Demo\Scripts\MouseComponent.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
     <Compile Include="Assets\Karakter\Kodlar\KameraKontrol.cs" />

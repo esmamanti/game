@@ -153,7 +153,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   firstLevelSceneName: SciFi_Warehouse
   fader: {fileID: 2046166595}
-  fadeDuration: 9
+  fadeDuration: 4
   startButton: {fileID: 358330669}
   quitButton: {fileID: 0}
 --- !u!4 &186454428
@@ -183,6 +183,7 @@ GameObject:
   - component: {fileID: 358330671}
   - component: {fileID: 358330670}
   - component: {fileID: 358330669}
+  - component: {fileID: 358330672}
   m_Layer: 5
   m_Name: Button.Start
   m_TagString: Untagged
@@ -197,9 +198,9 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 358330667}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3.1474714, y: 3.1474714, z: 3.1474714}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1982463926}
@@ -208,7 +209,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 160, y: 30}
+  m_SizeDelta: {x: 400, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &358330669
 MonoBehaviour:
@@ -304,6 +305,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 358330667}
   m_CullTransparentMesh: 1
+--- !u!225 &358330672
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 358330667}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &664978287
 GameObject:
   m_ObjectHideFlags: 0
@@ -399,8 +412,8 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1857853911}
-  - {fileID: 358330668}
   - {fileID: 2046166592}
+  - {fileID: 358330668}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -675,10 +688,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 358330668}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 245, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1982463927
 MonoBehaviour:
@@ -694,18 +707,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 75
+    m_Font: {fileID: 12800000, guid: 4beb055f07aaff244873dec698d0363e, type: 3}
+    m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 7
+    m_MinSize: 4
     m_MaxSize: 75
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -713,7 +726,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "YEN\u0130 OYUN"
+  m_Text: "BA\u015ELA"
 --- !u!222 &1982463928
 CanvasRenderer:
   m_ObjectHideFlags: 0

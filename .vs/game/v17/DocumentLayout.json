@@ -3,48 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\nalan\\OneDrive\\Desktop\\game\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nalan\\OneDrive\\Desktop\\game\\Assets\\Scripts\\EndCinematicManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\EndCinematicManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nalan\\OneDrive\\Desktop\\game\\Assets\\Scripts\\ZonePulse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\ZonePulse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nalan\\OneDrive\\Desktop\\game\\Assets\\Scripts\\VideoSceneLoader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\VideoSceneLoader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nalan\\OneDrive\\Desktop\\game\\Assets\\Scripts\\RedEndZone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\RedEndZone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nalan\\OneDrive\\Desktop\\game\\Assets\\Karakter\\Kodlar\\AtesEtme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Karakter\\Kodlar\\AtesEtme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nalan\\OneDrive\\Desktop\\game\\Assets\\Karakter\\Kodlar\\KameraKontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Karakter\\Kodlar\\KameraKontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nalan\\OneDrive\\Desktop\\game\\Assets\\Scripts\\MainMenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\MainMenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nalan\\OneDrive\\Desktop\\game\\Assets\\Enemy\\Kodlar\\Enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Enemy\\Kodlar\\Enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nalan\\OneDrive\\Desktop\\game\\Assets\\UI\\Script\\PauseMenuKontrolcusu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\UI\\Script\\PauseMenuKontrolcusu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nalan\\OneDrive\\Desktop\\game\\Assets\\Karakter\\Kodlar\\KameraKontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Karakter\\Kodlar\\KameraKontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nalan\\OneDrive\\Desktop\\game\\Assets\\Karakter\\Kodlar\\KarakterKontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Karakter\\Kodlar\\KarakterKontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nalan\\OneDrive\\Desktop\\game\\Assets\\Scripts\\MainMenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\MainMenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nalan\\OneDrive\\Desktop\\game\\Assets\\Scripts\\EndCinematicManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\EndCinematicManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nalan\\OneDrive\\Desktop\\game\\Assets\\Scripts\\RedEndZone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\RedEndZone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nalan\\OneDrive\\Desktop\\game\\Assets\\Scripts\\LightSceneLoader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\LightSceneLoader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nalan\\OneDrive\\Desktop\\game\\Assets\\Enemy\\Kodlar\\EnemySpawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Enemy\\Kodlar\\EnemySpawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nalan\\OneDrive\\Desktop\\game\\Assets\\UI\\Script\\PauseMenuKontrolcusu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\UI\\Script\\PauseMenuKontrolcusu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nalan\\OneDrive\\Desktop\\game\\Assets\\UI\\Script\\ArayuzKontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\UI\\Script\\ArayuzKontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nalan\\OneDrive\\Desktop\\game\\Assets\\Scripts\\ZonePulse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\ZonePulse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,24 +62,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ZonePulse.cs",
-              "DocumentMoniker": "C:\\Users\\nalan\\OneDrive\\Desktop\\game\\Assets\\Scripts\\ZonePulse.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ZonePulse.cs",
-              "ToolTip": "C:\\Users\\nalan\\OneDrive\\Desktop\\game\\Assets\\Scripts\\ZonePulse.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ZonePulse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "EnemySpawner.cs",
+              "DocumentMoniker": "C:\\Users\\nalan\\OneDrive\\Desktop\\game\\Assets\\Enemy\\Kodlar\\EnemySpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\Enemy\\Kodlar\\EnemySpawner.cs",
+              "ToolTip": "C:\\Users\\nalan\\OneDrive\\Desktop\\game\\Assets\\Enemy\\Kodlar\\EnemySpawner.cs",
+              "RelativeToolTip": "Assets\\Enemy\\Kodlar\\EnemySpawner.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAQwHoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T19:16:09.748Z",
+              "WhenOpened": "2025-11-04T11:59:50.756Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
+              "Title": "LightSceneLoader.cs",
+              "DocumentMoniker": "C:\\Users\\nalan\\OneDrive\\Desktop\\game\\Assets\\Scripts\\LightSceneLoader.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LightSceneLoader.cs",
+              "ToolTip": "C:\\Users\\nalan\\OneDrive\\Desktop\\game\\Assets\\Scripts\\LightSceneLoader.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LightSceneLoader.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T15:48:32.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "RedEndZone.cs",
               "DocumentMoniker": "C:\\Users\\nalan\\OneDrive\\Desktop\\game\\Assets\\Scripts\\RedEndZone.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\RedEndZone.cs",
@@ -84,7 +105,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "EndCinematicManager.cs",
               "DocumentMoniker": "C:\\Users\\nalan\\OneDrive\\Desktop\\game\\Assets\\Scripts\\EndCinematicManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EndCinematicManager.cs",
@@ -97,19 +118,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
               "Title": "KarakterKontrol.cs",
               "DocumentMoniker": "C:\\Users\\nalan\\OneDrive\\Desktop\\game\\Assets\\Karakter\\Kodlar\\KarakterKontrol.cs",
               "RelativeDocumentMoniker": "Assets\\Karakter\\Kodlar\\KarakterKontrol.cs",
               "ToolTip": "C:\\Users\\nalan\\OneDrive\\Desktop\\game\\Assets\\Karakter\\Kodlar\\KarakterKontrol.cs",
               "RelativeToolTip": "Assets\\Karakter\\Kodlar\\KarakterKontrol.cs",
-              "ViewState": "AgIAAG8AAAAAAAAAAADwv4UAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAQwKMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-11T18:00:18.303Z"
+              "WhenOpened": "2025-10-11T18:00:18.303Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "KameraKontrol.cs",
               "DocumentMoniker": "C:\\Users\\nalan\\OneDrive\\Desktop\\game\\Assets\\Karakter\\Kodlar\\KameraKontrol.cs",
               "RelativeDocumentMoniker": "Assets\\Karakter\\Kodlar\\KameraKontrol.cs",
@@ -117,47 +139,51 @@
               "RelativeToolTip": "Assets\\Karakter\\Kodlar\\KameraKontrol.cs",
               "ViewState": "AgIAACMAAAAAAAAAAAAuwEAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-11T18:07:34.315Z"
+              "WhenOpened": "2025-10-11T18:07:34.315Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "Enemy.cs",
               "DocumentMoniker": "C:\\Users\\nalan\\OneDrive\\Desktop\\game\\Assets\\Enemy\\Kodlar\\Enemy.cs",
               "RelativeDocumentMoniker": "Assets\\Enemy\\Kodlar\\Enemy.cs",
               "ToolTip": "C:\\Users\\nalan\\OneDrive\\Desktop\\game\\Assets\\Enemy\\Kodlar\\Enemy.cs",
               "RelativeToolTip": "Assets\\Enemy\\Kodlar\\Enemy.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAIBMwDgAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAJYAAAAAAAAAAAAQwLsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T16:58:27.854Z"
+              "WhenOpened": "2025-10-13T16:58:27.854Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 2,
               "Title": "MainMenu.cs",
               "DocumentMoniker": "C:\\Users\\nalan\\OneDrive\\Desktop\\game\\Assets\\Scripts\\MainMenu.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MainMenu.cs",
               "ToolTip": "C:\\Users\\nalan\\OneDrive\\Desktop\\game\\Assets\\Scripts\\MainMenu.cs",
               "RelativeToolTip": "Assets\\Scripts\\MainMenu.cs",
-              "ViewState": "AgIAAFQAAAAAAAAAAIBQwG0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-26T15:51:18.646Z"
+              "WhenOpened": "2025-10-26T15:51:18.646Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "AtesEtme.cs",
               "DocumentMoniker": "C:\\Users\\nalan\\OneDrive\\Desktop\\game\\Assets\\Karakter\\Kodlar\\AtesEtme.cs",
               "RelativeDocumentMoniker": "Assets\\Karakter\\Kodlar\\AtesEtme.cs",
               "ToolTip": "C:\\Users\\nalan\\OneDrive\\Desktop\\game\\Assets\\Karakter\\Kodlar\\AtesEtme.cs",
               "RelativeToolTip": "Assets\\Karakter\\Kodlar\\AtesEtme.cs",
-              "ViewState": "AgIAAFMAAAAAAAAAAAAAAGcAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAYwHUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-12T15:59:26.976Z"
+              "WhenOpened": "2025-10-12T15:59:26.976Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "VideoSceneLoader.cs",
               "DocumentMoniker": "C:\\Users\\nalan\\OneDrive\\Desktop\\game\\Assets\\Scripts\\VideoSceneLoader.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\VideoSceneLoader.cs",
@@ -170,27 +196,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "PauseMenuKontrolcusu.cs",
               "DocumentMoniker": "C:\\Users\\nalan\\OneDrive\\Desktop\\game\\Assets\\UI\\Script\\PauseMenuKontrolcusu.cs",
               "RelativeDocumentMoniker": "Assets\\UI\\Script\\PauseMenuKontrolcusu.cs",
               "ToolTip": "C:\\Users\\nalan\\OneDrive\\Desktop\\game\\Assets\\UI\\Script\\PauseMenuKontrolcusu.cs",
               "RelativeToolTip": "Assets\\UI\\Script\\PauseMenuKontrolcusu.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAQwFQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADcAAAAAAAAAAAAQwEIAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-23T17:42:45.742Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "ArayuzKontrol.cs",
               "DocumentMoniker": "C:\\Users\\nalan\\OneDrive\\Desktop\\game\\Assets\\UI\\Script\\ArayuzKontrol.cs",
               "RelativeDocumentMoniker": "Assets\\UI\\Script\\ArayuzKontrol.cs",
               "ToolTip": "C:\\Users\\nalan\\OneDrive\\Desktop\\game\\Assets\\UI\\Script\\ArayuzKontrol.cs",
               "RelativeToolTip": "Assets\\UI\\Script\\ArayuzKontrol.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-23T16:11:26.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ZonePulse.cs",
+              "DocumentMoniker": "C:\\Users\\nalan\\OneDrive\\Desktop\\game\\Assets\\Scripts\\ZonePulse.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ZonePulse.cs",
+              "ToolTip": "C:\\Users\\nalan\\OneDrive\\Desktop\\game\\Assets\\Scripts\\ZonePulse.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ZonePulse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T19:16:09.748Z"
             }
           ]
         }
