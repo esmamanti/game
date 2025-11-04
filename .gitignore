@@ -1,0 +1,40 @@
+# Unity generated folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+UserSettings/
+MemoryCaptures/
+
+# Visual Studio / Rider
+.vs/
+.idea/
+*.csproj
+*.unityproj
+*.sln
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Build outputs
+*.exe
+*.dll
+*.so
+*.dylib
+*.apk
+*.aab
+*.app
+*.appx
+*.appxbundle
