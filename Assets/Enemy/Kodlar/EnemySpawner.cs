@@ -6,44 +6,44 @@ using UnityEngine.AI; // NavMesh fonksiyonlarý için eklendi
 public class EnemySpawner : MonoBehaviour
 {
     [Header("Düþman Ayarlarý")]
-    // Inspector'dan atayacaðýnýz düþman prefab'ý
     [SerializeField] private GameObject enemyPrefab;
-
-    // Düþmanýn üretimdeki ölçek çarpaný (boyutu)
     [SerializeField] private float enemyScaleMultiplier = 1.2f;
 
     [Header("Üretim Noktalarý ve Rotasý")]
-    // Düþmanlarýn üretileceði noktalar
     [SerializeField] private Transform[] spawnPoints;
-
-    // Üretilen düþmanlarýn devriye atacaðý noktalar (Enemy script'ine atanacak)
     [SerializeField] private Transform[] patrolRoutePoints;
 
     [Header("Zamanlama")]
-    [SerializeField] private float spawnDelay = 5f; // Düþmanlar arasý bekleme süresi
-    [SerializeField] private int maxEnemies = 10;     // Sahnedeki maksimum düþman sayýsý
+    [SerializeField] private float spawnDelay = 0.25f; // 4’lü doðurma arasýnda ufak gecikme istersen
+    [SerializeField] private int maxEnemies = 3;       // SADECE 4 TANE doður ve dur
 
+    // Artýk "sahnede aktif" sayýsýna göre deðil, toplam üretilen sayýya göre kontrol edeceðiz
+    private int totalSpawned = 0;
+
+    // Ýstersen sadece bilgi amaçlý tut (doðurmaya etki etmiyor)
     private int currentEnemies = 0;
 
     void Start()
     {
-        // Düþman üretim coroutine'ini baþlat
-        StartCoroutine(SpawnEnemiesRoutine());
+        StartCoroutine(SpawnEnemiesOnceRoutine());
     }
 
-    private IEnumerator SpawnEnemiesRoutine()
+    private IEnumerator SpawnEnemiesOnceRoutine()
     {
-        while (true)
+        // SADECE BÝR KEZ, toplamda maxEnemies kadar doður
+        while (totalSpawned < maxEnemies)
         {
-            // Belirtilen bekleme süresi kadar bekle
-            yield return new WaitForSeconds(spawnDelay);
+            SpawnSingleEnemy();
+            totalSpawned++;
 
-            // Eðer maksimum düþman sayýsýna ulaþýlmadýysa devam et
-            if (currentEnemies < maxEnemies)
-            {
-                SpawnSingleEnemy();
-            }
+            if (spawnDelay > 0f)
+                yield return new WaitForSeconds(spawnDelay);
+            else
+                yield return null; // bir frame bekle
         }
+
+        // Artýk tamamen dur. Bundan sonra asla doðurmayacak.
+        yield break;
     }
 
     private void SpawnSingleEnemy()
@@ -54,59 +54,43 @@ public class EnemySpawner : MonoBehaviour
             return;
         }
 
-        // Rastgele bir üretim noktasý seç
         int randomIndex = Random.Range(0, spawnPoints.Length);
         Vector3 spawnPosition = spawnPoints[randomIndex].position;
 
-        // Düþmaný üret
         GameObject newEnemy = Instantiate(enemyPrefab, spawnPosition, Quaternion.identity);
         currentEnemies++;
 
-        // Düþmanýn boyutunu ayarla
         newEnemy.transform.localScale *= enemyScaleMultiplier;
 
-        // Ayar ve Warp iþlemlerini bir sonraki frame'de baþlat (NavMesh için kritik)
         StartCoroutine(InitializeNewEnemy(newEnemy, spawnPosition));
     }
 
-    // Düþmanýn NavMesh bileþenleri hazýr olana kadar bekler ve ayarlarý yapar
     private IEnumerator InitializeNewEnemy(GameObject newEnemy, Vector3 initialSpawnPosition)
     {
-        // Bir frame bekle: NavMeshAgent ve Start() metodunun çalýþmasý için
         yield return null;
 
-        // NavMeshAgent ve Enemy script'ini al
-        UnityEngine.AI.NavMeshAgent navAgent = newEnemy.GetComponent<UnityEngine.AI.NavMeshAgent>();
+        NavMeshAgent navAgent = newEnemy.GetComponent<NavMeshAgent>();
         Enemy enemyScript = newEnemy.GetComponent<Enemy>();
 
         if (enemyScript != null && navAgent != null)
         {
-            // YENÝ EKLEME: Can ve Hýz ayarlarý
+            // Ýstersen ilk ayarlarý burada yapmaya devam et
             enemyScript.enemyHP = 150f;
             enemyScript.dusmanHiz = 3f;
             enemyScript.kovalamaMesafesi = 8f;
-
-            // NavMeshAgent'ýn hýzýný hemen güncelle
             navAgent.speed = enemyScript.dusmanHiz;
-
-            // Düþmanýn devriye noktalarýný ata
             enemyScript.devriyeNoktalari = patrolRoutePoints;
 
-            // NAVMESH YÜZEYÝNE ZORLA YERLEÞTÝRME (Warp)
             NavMeshHit hit;
-            // Rastgele spawn noktasý çevresinde en yakýn NavMesh noktasýný ara
             if (NavMesh.SamplePosition(initialSpawnPosition, out hit, 2f, NavMesh.AllAreas))
             {
-                // Agent'ý NavMesh üzerinde bulunan güvenli noktaya ýþýnla
                 navAgent.Warp(hit.position);
 
-                // ÝLK HEDEFÝ ZORLA AYARLA (Yola çýkmasý için kritik)
                 if (enemyScript.devriyeNoktalari != null && enemyScript.devriyeNoktalari.Length > 0)
                 {
                     navAgent.SetDestination(enemyScript.devriyeNoktalari[0].position);
                 }
             }
-
         }
         else
         {
@@ -114,9 +98,9 @@ public class EnemySpawner : MonoBehaviour
         }
     }
 
-    // Düþman yok edildiðinde çaðrýlacak metod (Opsiyonel)
+    // Düþman yok edildiðinde sayaç düþsün ama DOÐURMAYA ETKÝ ETMEZ.
     public void EnemyDestroyed()
     {
-        currentEnemies--;
+        currentEnemies = Mathf.Max(0, currentEnemies - 1);
     }
 }
